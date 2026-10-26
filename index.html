@@ -1,0 +1,1028 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover,user-scalable=no"><meta name="theme-color" content="#2E4A2A"><link rel="manifest" href="manifest.json"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">
+<title>MyGarden</title>
+<style>
+@font-face{font-family:Pix;font-weight:400;font-display:block;src:url(data:font/woff2;base64,d09GMgABAAAAAB4MABAAAAAAXZAAAB2qAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAGoEMG65EHIU6BmA/U1RBVC4AhGoRCArmXNB5C4NgAAE2AiQDhzIEIAWERgeGNgwHG7FPBdy54DyAXPAtAFGUaVYbRekknVHw/+VAGyNU6hC/TWMruyzG5QrNte7uNNpupRKWaV8SyZEFrzjzhehIP6tgxHBgRDALNKNgxc7JQ1GktlwGZW7z+0P3IAa4nL5nR2jsk9wjmrPZyyVEDAsUYg1iub0gDQehhr9AEvA7SgvJxUhKi5V6gIq/UxeoYy9ulBdTzE/tNyNp/e4k7c/EUJOL1jVxbfCSfJ8UqwKI/xpD9/1LWDhiF6MyMR5bVkS6UyGrNIJGEArhzEuXG+KdijgV79QPUR2XUjC3T9FUxzBNGciSpZVr+HwX9PBKF5/q8ic6ouPl5fLwcLlcDj8Ox+/VlQ4pYeuAvEGquWhJdtB/JugZvXe+6xbK4OuvTJkO1+GVgtQdlEVyNxOrLXfP4f2fqlk7XxAtOYsOOfRLp1rPRemmIuZj8D34hACCShSWG6KSA5cOuxnDIEOU6BSzdh0v5NjU7nzXdPeuqKor6vLg+Vqq1M/nyhpAh5g7SmdBTHe70p8/f+RNaSvJNk5puO+d60keHhMWQFpjwZ1gFFVRBaWcbnMAM5yiqu/uxlf+RunYYxZGrM1k0/w0X4IEkccDeh7X2Grw7jOoUhba/LsCQigFoATQRUkIMzKKF4+ArLYeAEJCSUGQEkG1GkoRCu99/QiIAqLSAGnSL1AmfEATAtNuSPYTn0rlGEBea9T4A5K8/IYRAKl01Yj1jVvrQHlos2c5KJEAYHaWAkAIgoO7Xcvh4x3LIOFwBw1CzBUbC/3UAILKg4mJqCFSCKoYGigz5EY4kc11Efrhp5EAEDGUH3kMygPkerMn87YUD2YdcB9IiFck0Ppu8FtxbkpuKm9LDeJbE4Dcdbo8CZpQf1HiwibOC4Zj1yU9WJtCiQTaVNZE3SpSRBJdusCR/zkyh/7UG/mZdBPf8qqgGPOYWLVWlfV+V3i5zlplXetLit3jzl7Xn6XQqSulVCvZjHDG1Oxvrd16f4ypB6RlL3Iw7+q5rpQD/dka/L8RCXv/KgFuh8Xc7UMgIweoXe86NagO3q/UEQLAANIBmABoAWggd5mxI012OrvGnRVB/AeCGDGiJUUMyoEEot9lUMK6NN1cmC1CQi5mwROBS151tBEkWcPcq66Ui4tEKu0ELnvUHPLKn0KJoQBaT6yR3Ysf7K1EXdk1Y9RoV7spZe9W9ouzCok3aSxWKY/UAW+1wwLST+N23J7JkdHfzxHFp70QhVTnqfMhodaOeG412+9mWbjaqWL1nQfqx9UimVOfkuDpbVZD2y6qBkf/W9nvfUDIl72s85J1vVD0zRYrUTdxzjF37ep3StOAKEuSRZA1V2wPzA5x8hLEykZSmgT+T0IKIFIycgpKGnG0dPQMjEzMMJqFlU2pMuWqVLNzcKpRq1EzFqeFj19AUEi3XmEDhmyyxVbbbLfPIeddMGLU0wgLIIiShISSlJyAghJJRUUgRgxSrFgCGhqkOHFi6OiI6enJGBiIGRmRTEwEMmQQyJRJLEsWkpmZAIUihmFyNJqKhYWMlZWMjY1QkcUiFCsmVKIEoVQZoXIV1CpVErrJrZAqVQh2dgQHBwUnJ6latRQaNFBoxiJwWki1aiW0VDvEzQ3h8YS8vAg+PkIBAVE6dCAEBUULCYm13Eoi3bpJhYUJDBigssUWAtttJ7fPfhKHHCJx3ohIo0ZJXDdG4mlPIz3veQIEDEHUpKQiyMhFUlASixMnipYWQUcnmp5eDAMDCRMTgpkZAcMEaLRYFhZSVlZSNjYapcrEKVdOq0qVeNWqIXZ2Cg4OJCenOWrUIjVqJNSsWQIWS4TTAvHxQfz8EgUEKAUFqYSECHXrJtSr1xxhYYQBAySGDIlwSbfSvMQ2i3AMYnEfO2SZLJN/XwaEHUACYJF8ndwjr8MY/k6oQyT907/3F/ySn4ri99u/+cdmtme2h7b6zRub4giH6Ofh2GAd5PZe4XQ5VtYIm4TWYkELj+vtT3vLtmU/t4asIZP1bw3LU5LOPcXCGP/eT6VHJpLMtK3wCpX5tTIRICxay+aYEmZTZtF585uTH1NhtkqWVLtm7Zmb+4tLxfR+FGPpkzIZI0dFLCYyMEfae0QstonivBTKKKeCSq3OaIXHlwcgRBfdt/tFGPmA1xaeP36qAZ1n3gTbXyVG2CVbRFTdtkMzYLU1U57Na6yldFjQ3LSt1+DK3sg0mAQvBWJUs9pBozZHylreCrx6gc/8/sXoMG94OGl1fJKWjC5thAAQQltS7SEOnFrr1mB6UtE4thZ/UQv4hgW8be5J070uvYOT8k3sVonztSJ66vfiPYopwh0DW9KsnnSmRTWNeZfWbT2ub5nMPT1HTFJcQwYl01HFUU3IB0dR/aj1x6LZflSyEyXjLg0Jjo8EvDD4eZ/0RTxbr9+HHz2KdpRUglaZPRyTOGDOSGOdSOA3hHTFzsBkXG4LhBBDGXrJyCQ1fqUDuoFUVUY0UBTwe3awlt83PTZevaz9FZXZMOvIwOks5qRpnbl27FwwsIdmFjxEQnjxmwho5m6lbnCuDGlKSLteG9uRQ7eSX3K2x5hiSre1hqGomXx3nmK1ysZHifp5dtcfBpWB4wCi7yIuerkCu0BLmTIqR3Gut1guIkKVsbL+/DkrClkS+7AcNMSprqE/bFh5zUS59kopuGsxa9Y9kFsh0zSX5nLpJw+n1ejPB+UibeG8VePx9QPKdQ2Zjw1Nj6/sCbbrvkz3M4c4zwVGGOU6Y+U+eTw5RCS4LQWZIlcViMVEBmaw0ZNMBsrGD9LEHGSANgxjrwKK2M48H6NCQIKhVM4YAAxQqgEENrif6rwYwBDMsaBfOkKWGsaRcUZujpQcFcMTJ92ebxEZto0pA6UaLhfBLMs6KWdHNoT6Wbtzvwm2lugYQUfZCCFzROiSfMjKqDrIV8PtFBk3PRblMJ80AD7kNUpHT4OXhm2LKN8PIjobwN6B1G55l9JjYlJnQ7vd4FK5AzJKQZg3gZlqftwYd+ZRwRyd4xkFSlRHY1b6WWgdOlrrk2BcbbL8eiNS7Xp7xalQ+54yLWcqqLSqgNm36/y687wKduWpfvEGjqL6pWN7MTSXwzl8Vp9wWswhRrnOWPfps8OWJG324WLDHBByeLZJ4AmHhWEMOhQdxZOlySTdm9V8esL3pR/Tpt6QCXyoI/HAfSme40g2bxYHFq/x9737OXDZt9/oDDx7voXve4eyMHu6KWHXIvdTSBULakXb26EVUNmkF/yRZl8FmEN+bxvkHOp0BcHcnDwVAEJaAksMEY5chQD1dy/JlvSlOoX+96OPNYlBEkM1W9vfllAqvXhR5NYjsNYhOKxGqLKWQBXWmvZIBwRVSCD13fcQutkC6bTUENKdBE7b1svcUUtQEtlT7rzJ7URrFw+9r6E2QRSpHUhl0E6Cv5vdc9uE0IBBXLHZVsjQnZNFdI/VEBE5NSinkOMIShbROw1D32ItNi0UZNF1CnEgBo2loGHCO40mXuefdMsnLgk6twq5/a9GqHazQskEAKKu6KmqfIiH/gCM3sfOqMQIMRtwxI0a+wyNduBrk5WS2wkBcbl2ANjVvjh6Lcffbs4dBl4AN5N/E8zvBR5hXIgV7Pt/ILiUuXMARwEAulkPADASQI5kAWL6ALTf5Ym9vh4EAEAQACCC0O2AKTGGUokhYC9EVgOAPEYk/vq0AhucNmoWCcpObT1V79UHDQlIgdgj44kxwag3moypxkLj6FyTKcoUOwswggUK4RichUuQqcmCQI8+NsYbtbkFQw64+U+eJSP4P/n/yP/V/03/N/PfGzMPAABmwjN9M/dmDDdOTj80zdP3ApIHwOEdH/sWAKCLHi4Rnc+g3++wwx50ynPe94iHXHTJSS/b77x9TjvgoDe97g1HPfyeiLKCapo7FtpT5eOuOuOad4368v0S+5erTLxH4p5bea7/F77saVe8ba8jnvGCZ73oMV943Ab3escTvvOUt9ztHl95z6OO+95dNrrPbjvscYwIgSQmFEFCLppapCiJ4s2RQGmuVEmSpUvxqjR5suXIVSBLh4WKzLfYAosUK3Orm9zsFg1q1KpTYYl2Sy3j1uY1List12mFPl6rZOBNmnLduAljENTZBwDwAwBAbwCaAaodENkABAWAPgIAgED0G4mMQK1Kah2NPpWEUOT09EJVYyZ25iPKuQpCVqi0pA9sXNxEFajDI01EWDNYplgEAEEC1SWZ5hNxki1Tjgyp0n5IgTLrIqYFZ6auQzJdyewgTnAojgewr70shw5DWNPXPT/ByfaclEed+BD5YhznU2gCV+R51HoiVqMntyCqSn5cWcb7TpyXzbguD+IRfastITejzYh7fsGHlnf5VEdC3egjwrvdFJ6omCJYtwVrH+FEHOx3+qp5OQm7/NaW33ZPpl6rx0eHzArQPtzbaMIJ3rnwyR9Rh10tOWqQAGcUZ0IrfQSOh6wzQDZ7oTKd9NWNrlSsvR3eP5iLmcJfPJaqZ0cTUzB08canzaH4TRAaZIPkCGsrip4LF0DPLzjKJhrmmjL+F7oeGwcaeaxqCrBwmKMwq13hVuziRMVKCbOCvO44EmFeIvH/g7YKgEVfCqTVrCdevTzNp9/jyzWMqI29d0DqO0w5C+zvBCCvlkkeRwk+8V0EqSij/BC0lfQRIrTRCB1y88Fmu+KosThRUHmH5vRtRzpepW9AmhF5TT6jTHulsdgECuAFIJjwFa+GjziBZrw0OOQg9hvFVmFLGUYlS4n5vYrMucfLyJpoWnwnKfhEWUYphGNdDXnLQOuA47bRQ259RxG/wkatkMVaIrLbPiMJ7aKeL1wbyAtbFJNO32ikF07saL2xlgQJUZoh2ZEa5oTyETlTLzzonh81zr71GNKMXJUB4+vI/LobBupszfkOemnrUrg63+jRN8zMJttFiMHdGdpNJ8AU9FcVdIy4Co55f7bFrN2VFtHW4kzLZXph0rCWc3VcQcBXLo+9MryRQHaM/YKrM7QWFbJFIkTV5MZrg/hAVLvDRxYddRf5aIMQJDqs1iUAhgx50Sg1q9mUZMt24K9KWr453tnQxnw/aTWUmgEP68gVpjfMrA29LnO+kG1NMuVM5rrOSJ758dKdPt8+1wvaReBsfcf0rO0mgAWqn3DkrCEv1N6XXHP9YscLITVN2sWSw52HbZ3hnD1AaJKARd6xyfg9vqzf4iugXFBrCLVdzX3Zpu1SxNWWDnRiWmYWNh1ZtiVdthcWChfyARa4z4VxU3PP0mtvUfc/j9frSCfM5zNv0Z7uOPzEqlF8/IBOk0rxI45LSECnSe101byQrUk/jIiSninCrBVKao4NXBkVSGPrK5J7HnOe6M13Tydi1bPA2D78rEw7v87RIJtUj7KhiGRjCc1r8nKjz2qezlOMMSLJXoLTVuTkyQlH81XEOA+ia5RwLb1lNdGG6uVhHFeG1AC8qn9SNE6L8+DJlVxreIJRdfsxNKZtZ7n1RKKJF3qKaRTdI36/9Nd9SE39rhc2kC7Ip2ep9LvJDbdylkunEXqkKr2Ipz/2/Lcq/K4m87aTlKkbvOM5kVZ9RSlU19O4pMDlpTU1SK4piT/G6X/zb+Y5ydplIZqZJ4A8ATzvgwmZuQAUwAgM/5qGMiJRmH6oQmNIldATqGI9aJ7KX4y/suPvjLQyTaxi37BU+4H5aKLfb0Xi/ZbZ4hRLX6iaS1fhHTWJ/6/u3cHx4M9X9IrGHYuH6ccqNoa8ak11ie2t6c1yEFe+jA78NGodeXLW3/fWqBNCH0lbyh9ZNIx+13hsn9XMm5fj/QDU9B0xYLUWYMeEF1sGyaHKAd3mFYp+p8TBBSYl7Jet+YCtWB64rX7IeZZT9xv2eSQm6TjPhzC/jCdv55Z83/4SnUTmKlJTyVCwS19EtvEkkw2ZIY39z/eWeIphz741xiSnvpWvOoleBnJU6YSSTQ/nEAHTLWXSCWnvRUxjQV8TEtky9lslx1YHFfqI2wpPbPAH+K4MRGrrtJywiJj2bR4A75Vc5E2yKVkv3yYHAEVgw0OSpiIcBvOMQxFioQfuRVOo8AgkR12mb1rSRfkq/hsDdUrXp9L2DfRbdxZfPZs5/I2Dp9z1UiAROmGS5LE85TCL6kyrXdSYr+YuIjE1Aw7Bra+pXHlsYFm41DVDQQ8IiAcxf2cfS15Mluapda5krj/8N6F9PZXozFUMe2VKkpn34vu6oljdH6LkcEtpaNuxv7roz/yduO3rBthkXudli6piViRsIIBfRlNrhwgrdexw2pWRvDBiHi3nLXKBQd8/zee2yNEPQlvq57XUTb3FXYM3NvUiCKLx0Z5f8v3Nt05xkJBfQH9a44KG3Cj2JSftku+zr0axtOH2STIu7ZHXPPr0ypqJd82M8AbtYH5unSgzuSWqiHoy606hugj1r32+S+StRbtdS0JBwrAMGzFADlqoo7WpfYeRFE5F+qqDjBwb+K+FLQGO66YOT00H+AGXzycm5ABJtixKlsZjQlkqyEjnFlOark71AKmoInZDsnSoPVXyYSkFsxdUrN9aFnWZnnmm7e2qp3vYr1t1UJbp2eMDQwr2835LzpJ/J4V3Y2o3hbdROTlUBrU1e6hbbyvK/ZcL/gdyl2tsd85WBIMNBx31DeFOpzet6iX0IVOV6ECzXZzsQF/OGdn494c4jmVbuEfud8wRkQ62hRWOnBPjLnhoZThgZGmecNW3eWmcoZdiVJxx7RFihzJzq8sOLpE5HmmxXhfLf98zsnOPjzjs9qNOe/M5u8N5xG53HPHkxqXQDIPpApo2LsnD9H6a3lU7SBcwND1MYw+md20ebGM6MIZ39OTs+5YO59EWphCHa3cwO2rCuJCx0Hcn4x5LssUbhCAx74nssqMOO2v5TuqsPfJXNsZebDpkCv4Tw77XkWdbQOPdOXpb9es7SM5bcr+XxjTGtM9+392Dgym3W4Q0h8qaXPpOyKaEIYEKFQqPxJimvTAEdIueFO/MOzKkk1mCOmjxah3fyQzWDtoj1g2CzqMLLC+O/3OOG0l2aidMtPNxzXPaXFuemUPjYXQweQlk2NGnsLD1uJDGyYIWxkK/+vdQ7ZBk592KTmbD51f4+FDdENi1L7+WEz/4wCh1j3NHcpXQdON9acG5t+BPif69hUAaDBEUbRyTvmYGm56rKSuFwebIPsl91c27wSfOv5PEELllrydQfvTwDK8X8RjYzm0+eixHFIkes9WP5x6aGBGNfaytZSzL8fsKzzrDMo57mOuV8l1u6mPcw3qG5TaJm5cD/ti2fdsCkwxlovIpzGDJB9NMPk7G7TjIjQzv5aPjnnErjnDLh3vYUfbh0ZFRuH/+YHMfw2rZX1ye87lM8zSfILvbfvTWk0XxVj8enWLHuIe5Ib/eCDvZ8jDojiaLJ7mRLcCW3oe5Dafg9QDHqTkXS9PbcbtZp4pzcGrnMJ7kYFWAGyvr1qhZB6uqYZMHb5TbmOVguIjj0rltqCpmgocP+HXZ/Qi22nHh92jsW7XwHs5sNeNZjhKe/MtMStjMJ3FhC3/sBZoU3iQ/+BI8E08FOJbr5bYp39U+GGkFB/6pLfxJjuO9eI7jV0NFgH/a28Gxgzw/obyD6fQkbwRnfNu7hWVxQoSIHX+k3QugQ8nQ1WI4NQlOPTgWHp6PMUV9S5kx/g57mcI8fztUXqohdUdq5prMtB1pGSuN87CzPE69S+F3tHaC6d/e5+0rS+lBr4NVx2PlcMDtQNl5CCg2P7j6khwiBwtnHgmqWS6O4zL5nNfzXg+/vgqZG9aviA86g27oasPUFYq6SuErGJ/JP3zocPbGyKgFUdELoiMTEtWZ3TNFJ+oiI/l/z1RXtlyemnKFQp50D7alG2iaoTGXwmG6kKYM+ZrUFryzYCduSdZkaFJ6z1fDDEOnaGDp1pTkvuSU/j/TIcrtcu8O4+/bG/dh042ukKvBZRYedNdnG9ph770Y393zPX9Gf6SY1pcfzSxIXRwID1z6jClgmOjfp8JfHs61qYYuLpnt3KjzYb2z3qaeSX4ye9I9yV4y8egknmBtNbL4xKjFwAvD269h3WwSy7Pmi4M2pzqpdE81cP/4/arwR8OFcff4I55HonviAgR7xXoXO8vLwxu2bpE8h+GNOGDjxlV9g/19bNGPRwcllI1DcC6/IXnND7g3uKE4Szu/mPG/z98O9N+x7I7+YP+dy+7s//e4+zY3XH7Cuw+n4ELvfjqFhk1PcfH8+kcSW2TPxH65xHb/hr1sjfoKBGXuc63X7Au3wJXPsYHtVcnmL2DL3RvwCx7f12dBFLyH7+SnCNoxkzAsM3cc1yzJphm3wq3j1vVyjPPzJ20ODT9GteO8rrdlVh5c43zXV2JMugskjM/g2xOPOyYccOs9Cucz1IYkTFGe/BaZzKcoiDLr5TowLP7gyk1sk9PIkin1kXxqsM/drPCbECsQgAg3hI1h+39kV/8Zt/X/wF39p3X3/9juvT+x1ZId+ZnbQaCC6/I4KCUCBAIEBD+On06B/jPy9vkAo8CKD4yWJMw2mcg15Zp6TAQklmvJteRaci2zGfBtsHQ76O4zY5+C4BA8SGT6LGHfjw2jPeXx7FLHeyqxS4BAgODodB1h53XPGw/3N/O8n89fpz/Ed5m+ErS4BdDTSl2ykduaaSUCSeWGckO5oUVDs3vZQS8dic5o2IhPvvDCC7SG+/cT/QuEX7bH3XzcOQBF/ddSCJzt+aQ0pkGaYHYnVmVq0qlA+EgaIZsqGzoIkN5pulzrYELFV4fbnJWN8EL3WLuhxxQNFCpTFnFF5wGpR07Vyq7wfS46EUPBcZkOumVnjh4sbDEfWHJ4SVdB3/DfRmLJUVR1QwAQ+ODR2dilqqJvIRB8CQA+mu2ywPe+GtDN/tgf0K0GgAgBAACBT7sNyUOl3v8v3g3k5t3+uh7krpsV1bfcxvGONPyb5u4E2XWoYrZ5qVmdNlrKrWrM8zTc0kAQOlyiN2I6QZxILXYKRX3lBxtEb2FshM5i4YKcvsdFcnSULNU0I9iTaptXa1HQFoeVsAdC8AD44CI8L27sHFV38GDPAD0NIXPbkRryzfRyMAQNxyxE1rv5sCpV4nKX6d8B91l9++jzCvW1zNKvpm5Z2PyVE7R60jLbGNAD+dr9/4rsV56KLTZKFVi9cZ7KfCo5qdykhCEEyzKhTAnwcGUgpNnbXAuA2b8AuIBXAKoS6MANiSABw5WjY+5/RGq9Mf/bqdIqkYIZAvADB5F05GIz0f96UhsIoAEJAIwlpncskuDvYwlK3x4rsMClY0mZNh0jlCCA2S+GY5Ss5KdCAHLASHpHjXh+Xj49dX468QrdCtHV3Vy6+BPdM2vsf32/IKxTFy+aXblbOfj14wX5eaxWq81y3Sg1eF69gtp0acDrktKdtVqjbJilqisUGPN5GJPcCZtqdr5/ytiMmN1m1SdKdFqRBF0OTRjlsLDODnSdA9+0ee04R22nAJ6rxIv1+my/QaS1T/c89vI/7rhXO8ylUwg9o6wHf/f9aOUeys84SF4hzI7LcfPP+wFAsmdDwNPaXeRyye1SpHJL85V0vGc853kZMmUxe8GLXvLylx788Nk8crziVV6vu8NlV+T6Tt4XJXx7b3iTz1sKFLIp8o35SgEd313AciHHlCnXqcLXKq1wxV/5Sf/f/FZv69FnVQTQqyrkt1bQ/fNPu9pa66xx3HpX1fpenXoNtmvUZMNDsPGLHn64b91nSYRIhCLgEY867IjoL65wvjjhayXS+jViJIHf/B7p5/n9j4KUSIXUBIkUSUVHbwTpJJMTHreVgkiUhYlKNLVrrismI9dqmQUWecKTxoybMOm8Cx7yMCGpJBLbbLHTDrsMWWqTB0UkxmbDiaX0gx9NMZrL4C5tTqF8MdJAzDjGcw4TmEgtddTTQCPnYg+UwG54Bz6Ed+E9mBYtbu/i+3iJHwc7XcG6mlsiepf7LTm5+QLPUo+QS0v9xQviq3Oy5+W2U3mSzuX8N/kr+eTfSM/pHdct8/j7WP4NBNUzlK9YigtyJqc7d/Fii+Zb7vmu77SI79ajKFlcl/hm+Zf2eOSPhkVb9qhknXbfXAtz03zJ30E0m/+jfKYkba7enqIofk7KWF9isaTHH3QTu/P2yclXjjD4X5y5ceeqKTS7+ZK7AQAA) format('woff2')}
+@font-face{font-family:Pix;font-weight:700;font-display:block;src:url(data:font/woff2;base64,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) format('woff2')}
+
+:root{--ink:#3A2216;--ink2:#7A5434;--paper:#F4E2B8;--paperL:#FFF4D6;--paperD:#E2C690;--wood:#B8763A;--woodD:#8A4E22;--woodL:#D9984E;--green:#3F9A4A;--greenD:#2E7A38;--red:#C0402E;--gold:#F7C82E;--ui:"Pix","Courier New",monospace}
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{height:100%;margin:0;overflow:hidden;background:#2E4A2A;color:var(--ink);font-family:var(--ui);-webkit-user-select:none;user-select:none;touch-action:none;-webkit-tap-highlight-color:transparent}
+button{font:inherit;color:inherit;border:0;background:none;padding:0;cursor:pointer}
+#cv{position:fixed;inset:0;display:block;image-rendering:pixelated}
+/* marco pixel */
+.fr{position:relative;background:var(--paper);border:4px solid var(--ink);
+  box-shadow:inset 0 0 0 3px var(--wood),inset 0 0 0 5px var(--paperL),inset 0 -8px 0 0 rgba(226,198,144,.6);
+  clip-path:polygon(4px 0,calc(100% - 4px) 0,calc(100% - 4px) 4px,100% 4px,100% calc(100% - 4px),calc(100% - 4px) calc(100% - 4px),calc(100% - 4px) 100%,4px 100%,4px calc(100% - 4px),0 calc(100% - 4px),0 4px,4px 4px)}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:8px 14px 10px;font-weight:700;font-size:17px;color:#FFF4D6;background:var(--wood);border:3px solid var(--ink);
+  box-shadow:inset 0 3px 0 var(--woodL),inset 0 -4px 0 var(--woodD);text-shadow:0 2px 0 rgba(58,34,22,.6);
+  clip-path:polygon(3px 0,calc(100% - 3px) 0,100% 3px,100% calc(100% - 3px),calc(100% - 3px) 100%,3px 100%,0 calc(100% - 3px),0 3px)}
+.btn:active{transform:translateY(2px);box-shadow:inset 0 3px 0 var(--woodD),inset 0 -1px 0 var(--woodD)}
+.btn.g{background:var(--green);box-shadow:inset 0 3px 0 #5DBA5E,inset 0 -4px 0 var(--greenD)}
+.btn.r{background:var(--red);box-shadow:inset 0 3px 0 #E06A48,inset 0 -4px 0 #8A2C1E}
+.btn[disabled]{filter:grayscale(1) brightness(.85);opacity:.6;pointer-events:none}
+.btn.sq{width:52px;height:52px;padding:0}
+.btn canvas,.ico{width:28px;height:28px;image-rendering:pixelated}
+/* HUD */
+#hud{position:fixed;inset:0;pointer-events:none;z-index:5}
+#hud>*{position:absolute;pointer-events:auto}
+#tl{left:max(10px,env(safe-area-inset-left));top:max(8px,env(safe-area-inset-top));display:flex;flex-direction:column;gap:6px}
+#money{display:flex;align-items:center;gap:8px;padding:6px 14px 8px 10px;font-weight:700;font-size:24px;min-width:150px}
+#lvl{display:flex;align-items:center;gap:8px;padding:5px 12px 7px 8px;font-size:14px;font-weight:700}
+#lvl .bar{width:90px;height:8px;background:#C9A874;border:2px solid var(--ink);margin-top:3px}
+#lvl .bar i{display:block;height:100%;background:#5DBA5E}
+#tc{left:50%;transform:translateX(-50%);top:max(8px,env(safe-area-inset-top));display:flex;flex-direction:column;align-items:center;gap:4px}
+#season{display:flex;align-items:center;gap:8px;padding:6px 16px 8px 10px;font-weight:700;font-size:19px;white-space:nowrap}
+#tip{background:rgba(58,34,22,.85);color:var(--paperL);font-size:14px;padding:5px 10px;max-width:50vw;text-align:center;line-height:1.3}
+#tr{right:max(10px,env(safe-area-inset-right));top:max(8px,env(safe-area-inset-top));display:flex;gap:8px}
+#bot{left:calc(max(10px,env(safe-area-inset-left)) + 150px);bottom:max(6px,env(safe-area-inset-bottom));display:flex;gap:6px;padding:7px 8px 9px;max-width:calc(100vw - 480px);overflow-x:auto;scrollbar-width:none}
+#bot::-webkit-scrollbar{display:none}
+.seed{position:relative;flex:none;width:64px;height:64px;display:flex;flex-direction:column;align-items:center;justify-content:flex-start;background:#EAD3A2;border:3px solid #C9A464;padding-top:2px}
+.seed canvas{width:36px;height:36px;image-rendering:pixelated}
+.seed b{font-size:12px;line-height:1}
+.seed b img{width:10px;height:10px;vertical-align:-1px;image-rendering:pixelated}
+.seed.on{border-color:var(--ink);background:var(--paperL);box-shadow:0 0 0 2px var(--gold)}
+.seed.out{filter:grayscale(.85);opacity:.65}
+.seed .lk{position:absolute;inset:0;background:rgba(234,211,162,.85);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:13px}
+#bl{left:max(10px,env(safe-area-inset-left));bottom:max(8px,env(safe-area-inset-bottom));display:flex;gap:8px}
+#br{right:max(10px,env(safe-area-inset-right));bottom:max(8px,env(safe-area-inset-bottom));display:flex;gap:8px}
+#barnTag{display:flex;align-items:center;gap:6px;padding:6px 12px 8px 8px;font-weight:700;font-size:15px}
+
+.pop{position:fixed;z-index:9;transform:translate(-50%,0);font-weight:700;font-size:20px;color:#FFE07A;text-shadow:2px 0 #3A2216,-2px 0 #3A2216,0 2px #3A2216,0 -2px #3A2216;pointer-events:none;animation:popup 1.4s steps(14) forwards;display:flex;align-items:center;gap:4px}
+.pop img{width:18px;height:18px;image-rendering:pixelated}
+@keyframes popup{to{transform:translate(-50%,-60px);opacity:0}}
+#toast{position:fixed;left:50%;top:22%;transform:translate(-50%,-10px);opacity:0;transition:opacity .2s,transform .3s;z-index:30;pointer-events:none;padding:8px 16px 10px;font-weight:700;font-size:17px;white-space:nowrap}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#banner{position:fixed;left:50%;top:40%;transform:translate(-50%,-50%) scale(.6);opacity:0;z-index:26;pointer-events:none;padding:14px 34px 18px;font-weight:700;font-size:34px;text-align:center;transition:opacity .4s,transform .5s cubic-bezier(.34,1.5,.64,1)}
+#banner small{display:block;font-size:16px;font-weight:400;color:var(--ink2);margin-top:4px}
+#banner.show{opacity:1;transform:translate(-50%,-50%) scale(1)}
+/* ventanas */
+#modal{position:fixed;inset:0;z-index:20;display:flex;align-items:center;justify-content:center;background:rgba(30,20,10,.5);padding:max(8px,env(safe-area-inset-top)) max(12px,env(safe-area-inset-right)) max(8px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left))}
+.win{width:min(720px,100%);max-height:100%;display:flex;flex-direction:column;animation:pop .25s steps(4)}
+@keyframes pop{from{transform:scale(.85)}}
+.wh{display:flex;align-items:center;gap:10px;padding:12px 14px 6px 16px}
+.wh h2{margin:0;flex:1;font-size:26px}
+.wh .ico{width:34px;height:34px}
+.wb{padding:6px 16px 16px;overflow:auto;min-height:0}
+.tabs{display:flex;gap:4px;padding:0 14px;flex-wrap:wrap}
+.tabs button{padding:6px 12px;font-weight:700;font-size:15px;background:#E2C690;border:3px solid var(--ink);border-bottom:0;color:var(--ink2)}
+.tabs button.on{background:var(--paperL);color:var(--ink)}
+.row{display:flex;align-items:center;gap:10px;padding:8px 10px;background:rgba(255,244,214,.7);border:3px solid #C9A464;margin-top:6px}
+.row .n{flex:1;min-width:0;font-weight:700;font-size:16px;line-height:1.15}
+.row .n small{display:block;font-weight:400;font-size:13.5px;color:var(--ink2)}
+.row canvas{width:40px;height:40px;image-rendering:pixelated;flex:none}
+.price{display:inline-flex;align-items:center;gap:3px;font-weight:700;white-space:nowrap}
+.price img{width:14px;height:14px;image-rendering:pixelated}
+.sec{font-weight:700;font-size:14px;color:var(--ink2);margin:12px 0 2px;letter-spacing:.04em;text-transform:uppercase}
+.bar2{height:12px;background:#C9A874;border:2px solid var(--ink);margin-top:5px}.bar2 i{display:block;height:100%;background:#5DBA5E}
+.tog{min-width:92px}
+p.t{font-size:16px;line-height:1.45;margin:4px 0 10px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:6px}
+.grid .row{margin:0}
+#splash{position:fixed;inset:0;z-index:40;width:100%;height:100%}
+#rot{position:fixed;inset:0;z-index:50;display:none;align-items:center;justify-content:center;flex-direction:column;gap:12px;background:#2E4A2A;color:var(--paperL);font-size:20px;font-weight:700;text-align:center;padding:30px}
+@media (orientation:portrait) and (max-width:900px){#rot{display:flex}}
+@media (max-height:400px){#money{font-size:20px;min-width:120px}.seed{width:56px;height:56px}.seed canvas{width:30px;height:30px}.btn.sq{width:46px;height:46px}#season{font-size:16px}}
+</style>
+</head><body>
+<canvas id="cv"></canvas>
+<div id="hud" hidden>
+  <div id="tl"><div class="fr" id="money"></div><div class="fr" id="lvl"></div></div>
+  <div id="tc"><div class="fr" id="season"></div><div id="tip" hidden></div></div>
+  <div id="tr"><button class="btn sq" data-a="orders" aria-label="Pedidos"></button><button class="btn sq" data-a="build" aria-label="Construir"></button><button class="btn sq" data-a="menu" aria-label="Menú"></button></div>
+  <div class="fr" id="bot"></div>
+  <div id="bl"><button class="fr" id="barnTag" data-a="barn"></button></div>
+  <div id="br"><button class="btn" data-a="scene" id="sceneBtn">Pueblo</button><button class="btn g" data-a="market" id="mktBtn">Mercado</button></div>
+</div>
+<div class="fr" id="toast"></div>
+<div class="fr" id="banner"></div>
+<div id="modal" hidden></div>
+<canvas id="splash"></canvas>
+<div id="rot">Gira tu teléfono para jugar</div>
+<script>
+/* ===== Motor de pixel art de MyGarden (dibujado desde cero) ===== */
+var PX=(function(){
+let g=null,W=0,H=0,season='spring';
+function set(ctx,w,h){g=ctx;W=w;H=h}
+function setSeason(s){season=s}
+function rnd(s){return function(){s|=0;s=s+0x6D2B79F5|0;let t=Math.imul(s^s>>>15,1|s);t=t+Math.imul(t^t>>>7,61|t)^t;return((t^t>>>14)>>>0)/4294967296}}
+function h2(x,y){let h=(x*374761393+y*668265263)|0;h=Math.imul(h^(h>>>13),1274126177);return (h^(h>>>16))>>>0}
+function p(x,y,c){g.fillStyle=c;g.fillRect(x|0,y|0,1,1)}
+function r(x,y,w,h,c){g.fillStyle=c;g.fillRect(x|0,y|0,w|0,h|0)}
+function line(x0,y0,x1,y1,c){x0|=0;y0|=0;x1|=0;y1|=0;let dx=Math.abs(x1-x0),sx=x0<x1?1:-1,dy=-Math.abs(y1-y0),sy=y0<y1?1:-1,e=dx+dy;for(;;){p(x0,y0,c);if(x0===x1&&y0===y1)break;const e2=2*e;if(e2>=dy){e+=dy;x0+=sx}if(e2<=dx){e+=dx;y0+=sy}}}
+function disc(cx,cy,rad,c){for(let y=-rad;y<=rad;y++)for(let x=-rad;x<=rad;x++)if(x*x+y*y<=rad*rad+rad*.8)p(cx+x,cy+y,c)}
+function ell(cx,cy,rx,ry,c){for(let y=-ry;y<=ry;y++)for(let x=-rx;x<=rx;x++)if((x*x)/(rx*rx+.5)+(y*y)/(ry*ry+.5)<=1)p(cx+x,cy+y,c)}
+// paletas por temporada
+const PAL={
+ spring:{g0:'#5FB43E',g1:'#4E9C33',g2:'#79C94F',g3:'#3E8229',d0:'#E3A24A',d1:'#D18F3A',d2:'#EDB866',d3:'#B8762E',leaf:['#2F6E2A','#3F8A2E','#56A83A','#7CC44E'],fl:['#FFFFFF','#F7D24A','#F08AB4','#9F8BE8']},
+ summer:{g0:'#4FA837',g1:'#3F902C',g2:'#6ABD46',g3:'#327522',d0:'#E7A645',d1:'#D49035',d2:'#F0BC60',d3:'#BA772A',leaf:['#22602A','#2F7A2E','#45963A','#67B347'],fl:['#F7D24A','#F07040','#FFFFFF','#E84B5A']},
+ autumn:{g0:'#A3A84A',g1:'#8A8F3A',g2:'#BDBE5E',g3:'#6E742C',d0:'#DE9A48',d1:'#C9853A',d2:'#EAB264',d3:'#AE6C2E',leaf:['#8A3A1E','#B9562A','#E0843A','#F2B04E'],fl:['#E0843A','#F2B04E','#B9562A','#FFFFFF']},
+ winter:{g0:'#E9F0F6',g1:'#D3DFEA',g2:'#FFFFFF',g3:'#B9C9D9',d0:'#D9E2EA',d1:'#C5D2DE',d2:'#F4F8FB',d3:'#AEBFCF',leaf:['#5E7068','#7A8C84','#9AABA3','#C5D2CE'],fl:['#FFFFFF','#E9F0F6','#D3DFEA','#C5D2DE']}
+};
+const OUT='#3A2216',OUT2='#4A2C1C';
+function pal(){return PAL[season]}
+
+/* ---------- suelos ---------- */
+function grass(tx,ty){const P=pal();const x0=tx*16,y0=ty*16,h=h2(tx,ty);
+  r(x0,y0,16,16,P.g0);
+  // manchas suaves y ordenadas (sin ruido)
+  if(h%4===0){r(x0+2,y0+5,6,3,P.g2);r(x0+3,y0+4,4,1,P.g2);r(x0+3,y0+8,4,1,P.g2)}
+  // matas en forma de "v"
+  const tuft=(x,y,c,c2)=>{p(x,y,c);p(x-1,y-1,c);p(x+1,y-1,c);p(x-2,y-2,c2);p(x+2,y-2,c2);p(x,y-1,c2)};
+  const n=1+(h>>3)%2;
+  for(let k=0;k<n;k++){const hh=h2(tx*5+k,ty*9+k);tuft(x0+3+(hh%10),y0+5+((hh>>4)%9),P.g1,P.g3)}
+  if(h%3===1){const hh=h2(tx+7,ty+3);const x=x0+3+(hh%10),y=y0+3+((hh>>5)%10);p(x,y,P.g1);p(x+1,y-1,P.g1)}
+  if(season!=='winter'&&h%9===2){const x=x0+4+((h>>2)%8),y=y0+4+((h>>6)%8),c=P.fl[h%4];p(x,y-1,c);p(x-1,y,c);p(x+1,y,c);p(x,y+1,c);p(x,y,'#F7D24A');p(x,y+2,P.g1);p(x+1,y+3,P.g1)}
+  if((season==='autumn'||season==='muertos')&&h%6===3){const x=x0+3+((h>>3)%10),y=y0+3+((h>>8)%10);p(x,y,'#C9602E');p(x+1,y,'#E0843A');p(x+1,y-1,'#E0843A')}
+  if(season==='winter'&&h%5===1){const x=x0+3+((h>>3)%10),y=y0+4+((h>>8)%9);r(x,y,3,1,P.g2);p(x+1,y-1,P.g2)}
+}
+function dirt(tx,ty){const P=pal();const x0=tx*16,y0=ty*16,h=h2(tx,ty);r(x0,y0,16,16,P.d0);
+  if(h%3===0){r(x0+3,y0+4,5,2,P.d2);r(x0+4,y0+3,3,1,P.d2)}
+  if(h%3===1){r(x0+9,y0+10,4,2,P.d1);r(x0+10,y0+12,2,1,P.d1)}
+  for(let i=0;i<2;i++){const hh=h2(tx*31+i,ty*17+i);p(x0+2+(hh%12),y0+2+((hh>>5)%12),P.d3)}
+  if(h%5===0){const x=x0+3+(h%9),y=y0+4+((h>>4)%8);r(x,y,3,2,'#B9A890');r(x,y,2,1,'#DCCFBA');r(x,y+2,3,1,'#8C7B62')}}
+function soil(tx,ty,wet){const x0=tx*16,y0=ty*16;
+  const a=wet?'#6E3E1E':'#9C5B2E',b=wet?'#5A3218':'#844A24',c2=wet?'#87502A':'#B5713C';
+  r(x0+1,y0+1,14,14,a);r(x0+1,y0+14,14,1,b);
+  for(let k=0;k<3;k++){r(x0+2,y0+3+k*4,12,1,c2);r(x0+2,y0+4+k*4,12,1,b)}
+  p(x0+1,y0+1,'rgba(0,0,0,0)');
+  r(x0+1,y0,14,1,OUT2);r(x0+1,y0+15,14,1,OUT2);r(x0,y0+1,1,14,OUT2);r(x0+15,y0+1,1,14,OUT2);
+  if(season==='winter'){for(let i=0;i<10;i++){const h=h2(tx*9+i,ty*5);p(x0+2+(h%12),y0+2+((h>>4)%12),'#F4F8FB')}}
+}
+function path(tx,ty){const x0=tx*16,y0=ty*16;const base=season==='winter'?'#E3E9EF':'#E6C487',d=season==='winter'?'#C9D3DD':'#D3AE6E',l=season==='winter'?'#F7FAFC':'#F2D9A2';
+  r(x0,y0,16,16,base);for(let i=0;i<3;i++){const h=h2(tx*13+i,ty*29);const x=x0+2+(h%11),y=y0+2+((h>>5)%11);r(x,y,2,1,(h>>10)%2?d:l)}
+  const h=h2(tx,ty);if(h%3===0){const x=x0+3+(h%9),y=y0+4+((h>>4)%8);r(x,y,3,2,'#B9A88C');r(x,y,2,1,'#DCCDB2');r(x,y+2,3,1,'#8C7B62')}}
+function water(tx,ty,t){const x0=tx*16,y0=ty*16;const ice=season==='winter';
+  r(x0,y0,16,16,ice?'#BFE0F0':'#4A9FD0');
+  for(let i=0;i<2;i++){const h=h2(tx*7+i,ty*3);const x=x0+2+(h%9),y=y0+3+((h>>4)%10);r(x+(((t*2+i)|0)%2),y,4,1,ice?'#E8F6FC':'#7CC0E6')}
+  if(!ice){const h=h2(tx,ty);if(h%3===0){const x=x0+4+(h%6),y=y0+5+((h>>3)%6);r(x,y,5,3,'#3E8A2E');r(x+1,y-1,3,1,'#3E8A2E');r(x+1,y,2,1,'#5DAA3C');if(h%2){p(x+2,y-2,'#F08AB4');p(x+1,y-1,'#F08AB4');p(x+3,y-1,'#F08AB4');p(x+2,y-1,'#FBD8E6')}}}
+}
+function shore(tx,ty,nb){const x0=tx*16,y0=ty*16,c1=season==='winter'?'#9FB8C8':'#2E6E8E',c2=season==='winter'?'#F4F8FB':'#E6C487',c3=season==='winter'?'#C9D3DD':'#C9A464';
+  if(!nb.u){r(x0,y0,16,2,c2);r(x0,y0+2,16,1,c3);r(x0,y0+3,16,1,c1)}
+  if(!nb.d){r(x0,y0+14,16,2,c2);r(x0,y0+13,16,1,c3)}
+  if(!nb.l){r(x0,y0,2,16,c2);r(x0+2,y0,1,16,c3);r(x0+3,y0,1,16,c1)}
+  if(!nb.r){r(x0+14,y0,2,16,c2);r(x0+13,y0,1,16,c3)}
+  if(!nb.u&&!nb.l){r(x0,y0,5,5,c2);r(x0+3,y0+3,2,2,c3)}if(!nb.u&&!nb.r){r(x0+11,y0,5,5,c2);r(x0+11,y0+3,2,2,c3)}
+  if(!nb.d&&!nb.l){r(x0,y0+11,5,5,c2)}if(!nb.d&&!nb.r){r(x0+11,y0+11,5,5,c2)}
+}
+
+/* ---------- cultivos (casilla 16x16, ancla arriba-izq) ---------- */
+function plantCrop(tx,ty,type,stage){const x=tx*16,y=ty*16;
+  const G1='#2F7A2E',G2='#45A83A',G3='#7CCB4E',O=OUT;
+  if(stage===0){[[4,6],[10,5],[6,11],[11,10]].forEach(q=>{p(x+q[0],y+q[1],'#4A2A14');p(x+q[0]+1,y+q[1],'#C9A464')});return}
+  if(stage===1){[[5,10],[10,9]].forEach(q=>{p(x+q[0],y+q[1],G1);p(x+q[0],y+q[1]-1,G2);p(x+q[0]-1,y+q[1]-2,G3);p(x+q[0]+1,y+q[1]-2,G2)});return}
+  if(type==='lettuce'){ // lechuga / col
+    const cx=x+8,cy=y+9;ell(cx,cy,6,5,O);ell(cx,cy,5,4,G1);ell(cx,cy-1,4,3,G2);ell(cx-1,cy-2,2,2,G3);p(cx+2,cy-1,'#A6E070');line(cx-3,cy+2,cx+3,cy+2,'#246024');p(cx,cy,'#C9F08A');
+  }
+  if(type==='tomato'){ // mata con estaca y tomates
+    const cx=x+8;line(cx+3,y+1,cx+3,y+14,'#7A4A22');p(cx+3,y+1,'#A86A34');
+    for(let i=0;i<4;i++){const yy=y+3+i*3;ell(cx-1,yy+1,4,2,O);ell(cx-1,yy+1,3,1,i%2?G1:G2);p(cx-3,yy,G3);}
+    if(stage>=3)[[cx-3,y+5],[cx+1,y+8],[cx-2,y+11],[cx+1,y+3]].forEach(q=>{r(q[0]-1,q[1]-1,3,3,O);r(q[0]-1,q[1]-1,2,2,'#E63B3B');p(q[0],q[1],'#B32424');p(q[0]-1,q[1]-1,'#FF8A80')});
+  }
+  if(type==='carrot'){ const cx=x+8;
+    for(let i=-1;i<=1;i++){line(cx+i*2,y+11,cx+i*4,y+4,G1);p(cx+i*4,y+3,G2);p(cx+i*4-1,y+4,G3);p(cx+i*4+1,y+5,G2)}
+    if(stage>=3){r(cx-2,y+11,5,3,O);r(cx-1,y+11,3,2,'#F08A2E');p(cx-1,y+11,'#FFB060')}
+  }
+  if(type==='strawberry'){ [[4,9],[11,8],[8,12]].forEach(q=>{ell(x+q[0],y+q[1],3,2,O);ell(x+q[0],y+q[1],2,1,G2);p(x+q[0]-1,y+q[1]-1,G3)});
+    if(stage>=3)[[6,11],[10,11],[8,7]].forEach(q=>{r(x+q[0]-1,y+q[1]-1,3,3,O);r(x+q[0]-1,y+q[1]-1,2,2,'#E8324A');p(x+q[0]-1,y+q[1]-1,'#FF7A88');p(x+q[0],y+q[1]-2,G2)}) }
+  if(type==='sunflower'){ const cx=x+8;line(cx,y+15,cx,y+4,G1);ell(cx-3,y+10,2,1,G2);ell(cx+3,y+8,2,1,G2);
+    if(stage>=3){disc(cx,y+3,4,O);disc(cx,y+3,3,'#F7C82E');disc(cx,y+3,1,'#6B3A16');p(cx-2,y+1,'#FFE07A')} else {disc(cx,y+4,2,G2)} }
+  if(type==='pumpkin'){ line(x+1,y+10,x+15,y+9,G1);ell(x+4,y+8,2,2,G2);ell(x+12,y+7,2,2,G2);
+    if(stage>=3){ell(x+8,y+10,6,4,O);ell(x+8,y+10,5,3,'#E8892A');line(x+5,y+8,x+5,y+12,'#C46A1A');line(x+11,y+8,x+11,y+12,'#C46A1A');p(x+6,y+8,'#FFB060');r(x+8,y+5,2,2,'#5A3A1A')} }
+  if(type==='corn'){ for(let k=-1;k<=1;k+=2){const cx=x+8+k*3;line(cx,y+15,cx,y+1,G1);ell(cx+k*2,y+9,2,1,G2);ell(cx-k*2,y+5,2,1,G2);if(stage>=3){r(cx-1,y+6,3,5,O);r(cx,y+6,1,4,'#F7D24A');p(cx,y+5,'#C9E07A')}} }
+}
+
+/* ---------- objetos ---------- */
+function fenceH(x,y,w){const P=['#A8642E','#C98A48','#7A4320'];
+  for(let i=0;i<w;i++){r(x+i,y+4,1,2,P[1]);p(x+i,y+4,P[0]);r(x+i,y+9,1,2,P[1]);p(x+i,y+10,P[2])}
+  r(x,y+3,w,1,OUT);r(x,y+6,w,1,OUT);r(x,y+8,w,1,OUT);r(x,y+11,w,1,OUT);
+  for(let i=0;i<w;i+=16)post(x+i+6,y);}
+function post(x,y){r(x-1,y-1,6,15,OUT);r(x,y,4,13,'#B87536');r(x,y,1,13,'#D99A55');r(x+3,y,1,13,'#8A4E22');r(x,y,4,2,'#E2AA66');if(season==='winter')r(x-1,y-2,6,3,'#FFFFFF')}
+function fenceV(x,y,h){for(let j=0;j<h;j+=12)post(x,y+j)}
+function tree(cx,by,kind){ // kind: oak / fruit / blossom
+  const P=pal();let L=P.leaf;
+  if(kind==='blossom'&&season==='spring')L=['#B8507A','#D8709A','#F0A0C0','#FFD0E0'];
+  if(kind==='fruit'&&season!=='winter')L=['#22602A','#2F7A2E','#45963A','#67B347'];
+  // sombra
+  for(let y=-3;y<=3;y++)for(let x=-14;x<=14;x++)if(x*x/196+y*y/9<=1)p(cx+x+4,by+y,'rgba(30,50,20,.28)');
+  // tronco
+  r(cx-4,by-18,8,18,OUT);r(cx-3,by-18,6,17,'#7A4A26');r(cx-3,by-18,2,17,'#9C6234');r(cx+2,by-18,1,17,'#5A3218');
+  r(cx-6,by-2,12,2,OUT);r(cx-5,by-2,10,1,'#7A4A26');p(cx-1,by-10,'#5A3218');p(cx,by-6,'#5A3218');
+  if(season==='winter'&&kind!=='pine'){ // ramas desnudas
+    line(cx,by-16,cx-9,by-28,OUT);line(cx,by-16,cx+8,by-30,OUT);line(cx,by-18,cx,by-34,OUT);line(cx-5,by-22,cx-12,by-24,OUT);line(cx+4,by-24,cx+12,by-26,OUT);
+    line(cx-9,by-29,cx-9,by-29,'#FFFFFF');[[cx-9,by-29],[cx+8,by-31],[cx,by-35],[cx-12,by-25],[cx+12,by-27]].forEach(q=>{r(q[0]-1,q[1]-1,3,2,'#FFFFFF')});return}
+  // copa en capas
+  const blobs=[[0,-30,13],[-9,-24,9],[9,-24,9],[-5,-36,8],[6,-35,8],[0,-20,10]];
+  blobs.forEach(b=>disc(cx+b[0],by+b[1],b[2]+1,OUT));
+  blobs.forEach(b=>disc(cx+b[0],by+b[1],b[2],L[0]));
+  [[1,-31,11],[-8,-25,7],[9,-25,7],[-4,-36,7],[6,-35,6],[1,-22,8]].forEach(b=>disc(cx+b[0]-1,by+b[1]-1,b[2]-1,L[1]));
+  [[-2,-33,7],[-9,-27,4],[6,-28,4],[-5,-38,4],[4,-37,3]].forEach(b=>disc(cx+b[0]-1,by+b[1]-1,b[2],L[2]));
+  [[-4,-35,3],[-10,-28,2],[3,-30,2],[-6,-39,2]].forEach(b=>disc(cx+b[0],by+b[1],b[2],L[3]));
+  // textura de hojas
+  for(let i=0;i<12;i++){const h=h2(cx+i,by-i*3);const a=(h%628)/100,d=(h>>9)%13;const x=cx+Math.round(Math.cos(a)*d),y=by-29+Math.round(Math.sin(a)*d*.9);p(x,y,L[(h>>4)%2?0:2])}
+  if(kind==='fruit'&&season!=='winter')[[-7,-26],[5,-32],[9,-22],[-3,-21],[-1,-36],[10,-30]].forEach(q=>{r(cx+q[0]-1,by+q[1]-1,3,3,OUT);r(cx+q[0]-1,by+q[1]-1,2,2,season==='autumn'?'#F2A23A':'#F07A2A');p(cx+q[0]-1,by+q[1]-1,'#FFD07A')});
+  if(kind==='blossom'&&season==='spring')for(let i=0;i<14;i++){const h=h2(cx*3+i,by);p(cx-12+(h%24),by-40+((h>>5)%26),'#FFFFFF')}
+}
+function pine(cx,by){const win=season==='winter';
+  const L=win?['#1E3A2E','#2C4A3A','#3A5E4A','#4E745E']:['#163E26','#1F5230','#2A6A3C','#3C844A'];
+  // sombra
+  for(let y=-3;y<=3;y++)for(let x=-12;x<=12;x++)if(x*x/144+y*y/9<=1)p(cx+x+4,by+y,'rgba(30,50,20,.28)');
+  // tronco
+  r(cx-3,by-10,6,11,OUT);r(cx-2,by-10,4,10,'#6A3E1E');p(cx-2,by-9,'#8A5A30');p(cx-2,by-6,'#8A5A30');p(cx+1,by-4,'#4A2A14');
+  // 4 pisos de ramas, cada uno más angosto hacia arriba
+  const tiers=[[13,by-8,13],[11,by-16,12],[9,by-24,11],[6,by-31,10]];
+  tiers.forEach(([w,base,hgt],ti)=>{
+    // contorno
+    for(let j=0;j<hgt;j++){const ww=Math.round(w*(1-j/hgt));r(cx-ww-1,base-j,ww*2+3,1,OUT)}
+    r(cx-1,base-hgt,3,1,OUT);
+    // relleno con luz a la izquierda y sombra a la derecha
+    for(let j=0;j<hgt-1;j++){const ww=Math.round((w-1)*(1-j/hgt));
+      r(cx-ww,base-j,ww*2+1,1,L[1]);
+      r(cx+1,base-j,Math.max(0,ww),1,L[0]);
+      r(cx-ww,base-j,Math.max(1,Math.round(ww*.55)),1,L[2]);
+      if(ww>2)p(cx-ww+1,base-j,L[3])}
+    // sombra que deja el piso de arriba
+    if(ti<3){const nb=tiers[ti+1][1];for(let j=0;j<2;j++){const yy=nb+1+j;const ww=Math.round((w-1)*(1-(base-yy)/hgt));if(ww>0){r(cx-ww,yy,ww*2+1,1,j?L[1]:L[0])}}}
+    // puntas de ramas colgando en el borde inferior
+    for(let k=-w+1;k<w;k+=3){p(cx+k,base+1,OUT);p(cx+k,base,k<0?L[2]:L[0])}
+    // agujas / textura
+    for(let k=0;k<5;k++){const h=h2(cx*7+ti,k*13+base);const xx=cx-w+3+(h%(w*2-4)),yy=base-1-((h>>5)%Math.max(1,hgt-4));const ok=Math.abs(xx-cx)<w*(1-(base-yy)/hgt)-1;if(ok){p(xx,yy,xx<cx?L[3]:L[1]);p(xx+1,yy+1,xx<cx?L[2]:L[0])}}
+    if(win){for(let k=-w+2;k<=0;k+=2){const ww=w*(1-2/hgt);r(cx+k,base-2-Math.round((k+w)*hgt/w/2.2),3,1,'#FFFFFF')}r(cx-w+2,base-1,w,1,'#FFFFFF');p(cx,base-hgt+1,'#FFFFFF')}
+  });
+  // punta
+  p(cx,by-42,OUT);p(cx,by-41,L[2]);
+}
+function bush(cx,by,berry){const P=pal();const L=P.leaf;
+  for(let y=-2;y<=2;y++)for(let x=-9;x<=9;x++)if(x*x/81+y*y/4<=1)p(cx+x+2,by+y,'rgba(30,50,20,.28)');
+  [[0,-6,7],[-5,-4,5],[5,-4,5]].forEach(b=>disc(cx+b[0],by+b[1],b[2]+1,OUT));[[0,-6,7],[-5,-4,5],[5,-4,5]].forEach(b=>disc(cx+b[0],by+b[1],b[2],L[1]));
+  [[-1,-8,4],[-5,-5,2],[4,-6,3]].forEach(b=>disc(cx+b[0],by+b[1],b[2],L[2]));[[-2,-10,2]].forEach(b=>disc(cx+b[0],by+b[1],b[2],L[3]));
+  if(berry&&season!=='winter')[[-4,-6],[3,-8],[5,-3],[-1,-3],[0,-10]].forEach(q=>{p(cx+q[0],by+q[1],'#5A2A8A');p(cx+q[0]+1,by+q[1],'#7A4AB0');p(cx+q[0],by+q[1]+1,'#3A1A5A')})}
+function rock(cx,by){for(let y=-2;y<=2;y++)for(let x=-7;x<=7;x++)if(x*x/49+y*y/4<=1)p(cx+x+2,by+y,'rgba(30,50,20,.28)');
+  ell(cx,by-3,7,4,OUT);ell(cx,by-3,6,3,'#8C8A86');ell(cx-1,by-4,4,2,'#AEACA6');r(cx-3,by-6,3,1,'#D0CEC8');p(cx+3,by-2,'#6A6864');if(season==='winter')r(cx-4,by-7,7,2,'#FFFFFF')}
+function stump(cx,by){ell(cx+2,by,8,2,'rgba(30,50,20,.28)');r(cx-6,by-7,12,8,OUT);r(cx-5,by-6,10,6,'#7A4A26');r(cx-5,by-6,2,6,'#9C6234');ell(cx,by-7,5,2,OUT);ell(cx,by-7,4,1,'#D9A866');p(cx,by-7,'#A8742E')}
+
+/* ---------- casa (original) ---------- */
+function house(x,y){ // 80x80 aprox, ancla arriba-izq
+  const W1='#C27A3A',W2='#A8622C',W3='#DE9A55',R1='#C0402E',R2='#9A2E22',R3='#E06A48';
+  // sombra
+  r(x+4,y+76,78,4,'rgba(30,50,20,.28)');
+  // muros de troncos
+  r(x+2,y+34,76,42,OUT);
+  for(let k=0;k<7;k++){const yy=y+35+k*6;r(x+3,yy,74,5,W1);r(x+3,yy,74,1,W3);r(x+3,yy+4,74,1,W2);for(let s=0;s<6;s++){const h=h2(k,s);p(x+5+(h%70),yy+2,W2)}}
+  // esquinas
+  r(x+1,y+33,6,44,OUT);r(x+2,y+34,4,42,'#8A4E22');r(x+73,y+33,6,44,OUT);r(x+74,y+34,4,42,'#8A4E22');
+  for(let k=0;k<7;k++){r(x+2,y+36+k*6,4,1,'#B87536');r(x+74,y+36+k*6,4,1,'#B87536')}
+  // techo
+  for(let j=0;j<30;j++){const inset=Math.round(j*0.0);r(x-4,y+4+j,88,1,OUT)}
+  for(let row=0;row<7;row++){const yy=y+5+row*4;for(let col=0;col<22;col++){const xx=x-3+col*4+(row%2)*2;r(xx,yy,4,4,R1);r(xx,yy+3,4,1,R2);p(xx,yy,R3);p(xx+1,yy,R3)}}
+  r(x-4,y+33,88,2,OUT);r(x-3,y+32,86,1,R2);
+  r(x-4,y+2,88,3,OUT);r(x-3,y+3,86,1,'#7A2418');
+  if(season==='winter'){r(x-4,y+1,88,6,'#FFFFFF');r(x-4,y+7,88,1,'#D3DFEA');for(let i=0;i<20;i++){const h=h2(i,9);r(x-3+(h%84),y+7,2,1+(h%3),'#FFFFFF')}}
+  // chimenea
+  r(x+58,y-10,12,16,OUT);r(x+59,y-9,10,14,'#9C6A5A');for(let k=0;k<4;k++)r(x+59+(k%2)*3,y-8+k*3,6,1,'#7A4A3A');r(x+57,y-12,14,3,OUT);r(x+58,y-11,12,1,'#B98A7A');
+  // puerta
+  r(x+33,y+48,16,28,OUT);r(x+34,y+49,14,27,'#8A4E22');r(x+34,y+49,14,2,'#6A3A18');for(let k=0;k<3;k++)r(x+37+k*4,y+52,1,22,'#6A3A18');r(x+45,y+62,2,2,'#F7D24A');
+  r(x+30,y+76,22,3,OUT);r(x+31,y+76,20,2,'#B9A88C');
+  // ventanas
+  [x+10,x+56].forEach(wx=>{r(wx,y+44,16,14,OUT);r(wx+1,y+45,14,12,'#7EC6E8');r(wx+1,y+45,14,3,'#B6E2F4');r(wx+8,y+45,1,12,OUT);r(wx+1,y+51,14,1,OUT);p(wx+3,y+47,'#FFFFFF');p(wx+4,y+46,'#FFFFFF');
+    r(wx-1,y+58,18,5,OUT);r(wx,y+59,16,3,'#A8642E');for(let i=0;i<6;i++){const c=['#F08AB4','#F7D24A','#FFFFFF','#E63B3B','#9F8BE8','#F08AB4'][i];p(wx+1+i*3,y+57,c);p(wx+2+i*3,y+56,c);p(wx+1+i*3,y+58,'#3F8A2E');p(wx+2+i*3,y+58,'#56A83A')}});
+  // farol y letrero
+  r(x+28,y+52,3,5,OUT);p(x+29,y+53,'#FFE07A');p(x+29,y+54,'#F7C82E');
+  // barril
+  r(x+82,y+60,12,16,OUT);r(x+83,y+61,10,14,'#8A4E22');r(x+83,y+63,10,1,'#5A5A5A');r(x+83,y+71,10,1,'#5A5A5A');r(x+83,y+61,10,2,'#2E6E8E');
+}
+/* ---------- puesto del mercado (original) ---------- */
+function stall(x,y){ // ~64x54
+  r(x+2,y+50,62,4,'rgba(30,50,20,.28)');
+  // postes
+  [x+2,x+58].forEach(px=>{r(px,y+4,5,46,OUT);r(px+1,y+5,3,44,'#B87536');p(px+1,y+5,'#D99A55')});
+  // toldo a rayas verde/blanco
+  r(x-2,y,70,16,OUT);
+  for(let i=0;i<17;i++){const c=i%2?'#F4EEDC':'#3F9A4A',d=i%2?'#D6CDB4':'#2E7A38';r(x-1+i*4,y+1,4,12,c);r(x-1+i*4,y+11,4,2,d)}
+  for(let i=0;i<9;i++){ell(x+2+i*8,y+15,3,2,OUT);ell(x+2+i*8,y+14,3,2,i%2?'#3F9A4A':'#F4EEDC')}
+  r(x-1,y+1,68,1,'#FFFFFF');
+  if(season==='winter')r(x-2,y-2,70,4,'#FFFFFF');
+  // mostrador
+  r(x+1,y+30,64,20,OUT);for(let k=0;k<3;k++){r(x+2,y+31+k*6,62,5,'#C98A48');r(x+2,y+31+k*6,62,1,'#E2AA66');r(x+2,y+35+k*6,62,1,'#8A4E22')}
+  r(x,y+28,66,3,OUT);r(x+1,y+28,64,1,'#E2AA66');
+  // cajas con productos
+  const crate=(cx,cy,col,col2)=>{r(cx,cy,14,9,OUT);r(cx+1,cy+1,12,7,'#A8642E');r(cx+1,cy+4,12,1,'#7A4320');for(let i=0;i<4;i++){r(cx+1+i*3,cy-2,3,3,OUT);r(cx+1+i*3,cy-2,2,2,col);p(cx+1+i*3,cy-2,col2)}for(let i=0;i<3;i++){r(cx+2+i*3,cy-4,3,3,OUT);r(cx+2+i*3,cy-4,2,2,col);p(cx+2+i*3,cy-4,col2)}};
+  crate(x+5,y+21,'#E63B3B','#FF8A80');crate(x+20,y+21,'#F08A2E','#FFB060');crate(x+35,y+21,'#7CCB4E','#C9F08A');crate(x+50,y+21,'#E8324A','#FF7A88');
+  // pizarrón de precio
+  r(x+66,y+30,14,16,OUT);r(x+67,y+31,12,12,'#2E4A3A');r(x+69,y+33,2,1,'#FFFFFF');r(x+72,y+33,4,1,'#FFFFFF');r(x+69,y+36,6,1,'#F7D24A');r(x+69,y+39,4,1,'#FFFFFF');line(x+68,y+46,x+66,y+50,OUT);line(x+78,y+46,x+80,y+50,OUT);
+  // caja de dinero y monedas
+  r(x+26,y+25,10,5,OUT);r(x+27,y+26,8,3,'#5A6A7A');p(x+30,y+26,'#F7D24A');
+}
+/* ---------- personitas (clientes) ---------- */
+function npc(x,y,shirt,hair,skin,dir){ // pies en (x,y)
+  ell(x+1,y,5,1,'rgba(30,50,20,.3)');
+  r(x-3,y-6,3,6,OUT);r(x+1,y-6,3,6,OUT);r(x-2,y-6,1,5,'#3A4A6A');r(x+2,y-6,1,5,'#3A4A6A');
+  r(x-4,y-14,9,9,OUT);r(x-3,y-13,7,7,shirt);r(x-3,y-13,2,7,'rgba(255,255,255,.2)');
+  r(x-5,y-12,2,6,OUT);r(x+4,y-12,2,6,OUT);p(x-4,y-7,skin);p(x+5,y-7,skin);
+  r(x-4,y-23,9,9,OUT);r(x-3,y-22,7,7,skin);
+  r(x-4,y-24,9,4,OUT);r(x-3,y-23,7,3,hair);if(dir!=='up'){p(x-1,y-19,OUT);p(x+2,y-19,OUT);p(x-2,y-17,'#F09A9A');p(x+3,y-17,'#F09A9A')}else r(x-3,y-21,7,5,hair);
+}
+function sparkle(x,y,c){p(x,y-2,c);p(x,y+2,c);p(x-2,y,c);p(x+2,y,c);p(x,y,'#FFFFFF')}
+function snow(t){for(let i=0;i<120;i++){const h=h2(i,99);const x=(h%W+t*6*(1+i%3))%W,y=((h>>8)%H+t*14*(1+i%2))%H;p(x,y,'#FFFFFF')}}
+return {set,setSeason,PAL,p,r,line,disc,ell,h2,grass,dirt,soil,path,water,shore,plantCrop,fenceH,fenceV,post,tree,pine,bush,rock,stump,house,stall,npc,sparkle,snow,OUT};
+})();
+
+/* ===== Más sprites originales para MyGarden ===== */
+(function(){
+const {p,r,line,disc,ell,h2,OUT}=PX;
+const season=()=>PX._season||'spring';
+const _ss=PX.setSeason;PX.setSeason=function(s){PX._season=s;_ss(s)};
+
+PX.barn=function(x,y){ // granero 64x72
+  r(x+4,y+68,64,4,'rgba(30,50,20,.28)');
+  // techo a dos aguas rojo-vino
+  for(let j=0;j<24;j++){const w=Math.round(8+j*2.4);r(x+32-w/2-1,y+j,w+2,1,OUT)}
+  for(let j=1;j<23;j++){const w=Math.round(8+j*2.4)-2;r(x+32-w/2,y+j,w,1,j%4===0?'#7A2418':'#9C3326');r(x+32-w/2,y+j,Math.max(1,w/2|0),1,j%4===0?'#8A2C1E':'#B43E2E')}
+  if(season()==='winter'){for(let j=0;j<10;j++){const w=Math.round(8+j*2.4);r(x+32-w/2,y+j,w,1,'#FFFFFF')}}
+  // muros
+  r(x+3,y+24,58,44,OUT);r(x+4,y+25,56,42,'#B8442E');
+  for(let i=0;i<14;i++){r(x+4+i*4,y+25,1,42,'#962F20')}
+  r(x+4,y+25,56,2,'#7A2418');
+  // marco blanco y portón
+  r(x+18,y+36,28,32,OUT);r(x+19,y+37,26,31,'#F4EEDC');r(x+21,y+39,22,29,'#8A4E22');
+  line(x+21,y+39,x+42,y+67,'#F4EEDC');line(x+42,y+39,x+21,y+67,'#F4EEDC');r(x+31,y+39,2,29,'#F4EEDC');
+  // ventana de heno
+  r(x+26,y+27,12,8,OUT);r(x+27,y+28,10,6,'#F4EEDC');r(x+28,y+29,8,4,'#5A3218');r(x+28,y+31,8,2,'#E2BE5A');p(x+30,y+30,'#F7D24A');
+  // pacas
+  r(x+48,y+58,12,10,OUT);r(x+49,y+59,10,8,'#E2BE5A');r(x+49,y+62,10,1,'#B8922E');r(x+52,y+59,1,8,'#B8922E');
+};
+PX.workshop=function(x,y,kind){ // 48x48
+  const roof={jam:['#7A3A8A','#9C4AB0','#B86AD0'],juice:['#C9701E','#E8892A','#F2A84E'],tort:['#8A5A2E','#A8743E','#C99258'],can:['#2E6E8E','#3E8AAE','#5EA8CC']}[kind]||['#555','#777','#999'];
+  r(x+3,y+44,44,4,'rgba(30,50,20,.28)');
+  // paredes
+  const wall=kind==='tort'?['#E2B47E','#C9925A']:['#E8D2A6','#C9A874'];
+  r(x+3,y+18,42,28,OUT);r(x+4,y+19,40,26,wall[0]);for(let i=0;i<5;i++)r(x+4,y+23+i*5,40,1,wall[1]);
+  // techo
+  r(x,y+6,48,14,OUT);for(let row=0;row<3;row++)for(let k=0;k<12;k++){const xx=x+1+k*4-(row%2)*2;r(xx,y+7+row*4,4,4,roof[1]);r(xx,y+10+row*4,4,1,roof[0]);p(xx,y+7+row*4,roof[2])}
+  if(season()==='winter')r(x,y+5,48,4,'#FFFFFF');
+  // chimenea
+  r(x+34,y-2,8,10,OUT);r(x+35,y-1,6,8,'#8C7A70');
+  // puerta y ventana
+  r(x+8,y+28,12,18,OUT);r(x+9,y+29,10,17,'#8A4E22');p(x+17,y+37,'#F7D24A');
+  r(x+26,y+26,14,11,OUT);r(x+27,y+27,12,9,'#7EC6E8');r(x+27,y+27,12,3,'#B6E2F4');r(x+33,y+27,1,9,OUT);
+  // letrero con ícono
+  r(x+14,y+12,20,10,OUT);r(x+15,y+13,18,8,'#F4E2B8');
+  if(kind==='jam'){r(x+21,y+14,6,6,OUT);r(x+22,y+16,4,3,'#C02848');r(x+22,y+15,4,1,'#F4EEDC')}
+  if(kind==='juice'){disc(x+24,y+17,3,OUT);disc(x+24,y+17,2,'#F2962E');p(x+23,y+16,'#FFD07A');p(x+24,y+13,'#3F8A2E')}
+  if(kind==='tort'){ell(x+24,y+17,6,2,OUT);ell(x+24,y+17,5,1,'#F2D49A');p(x+22,y+17,'#C9A464');p(x+26,y+16,'#C9A464')}
+  if(kind==='can'){r(x+21,y+14,6,7,OUT);r(x+22,y+15,4,5,'#F08A2E');r(x+22,y+14,4,1,'#D0D0D0')}
+};
+PX.pad=function(x,y){ // terreno vacío para taller, 48x48
+  r(x+2,y+6,44,38,'#C9A464');for(let i=0;i<30;i++){const h=h2(x+i,y);p(x+3+(h%42),y+7+((h>>6)%36),i%2?'#B38E52':'#DCC08A')}
+  // estacas
+  [[x+2,y+6],[x+44,y+6],[x+2,y+42],[x+44,y+42]].forEach(q=>{r(q[0]-1,q[1]-4,3,6,OUT);p(q[0],q[1]-3,'#C98A48')});
+  line(x+3,y+3,x+44,y+3,'#E8E0C8');
+  PX.sign(x+18,y+16);
+};
+PX.sign=function(x,y){ // letrero "Se vende" 14x16
+  r(x+6,y+8,3,9,OUT);p(x+7,y+9,'#A8642E');r(x+7,y+10,1,6,'#8A4E22');
+  r(x,y,15,10,OUT);r(x+1,y+1,13,8,'#E2AA66');r(x+1,y+1,13,1,'#F2C88A');r(x+1,y+8,13,1,'#B87536');
+  // moneda
+  r(x+5,y+3,5,4,OUT);r(x+6,y+3,3,4,'#F7C82E');p(x+6,y+3,'#FFF0A0');
+};
+PX.weeds=function(tx,ty){ // maleza en terreno bloqueado
+  const x0=tx*16,y0=ty*16,h=h2(tx*3,ty*5);
+  if(h%3===0){const x=x0+3+(h%9),y=y0+12;line(x,y,x-2,y-6,'#3E8229');line(x,y,x+1,y-7,'#4E9C33');line(x,y,x+3,y-5,'#3E8229');p(x+1,y-8,'#79C94F')}
+  if(h%4===1){PX.rock(x0+8,y0+13)}
+  if(h%7===2){PX.stump(x0+8,y0+14)}
+  if(h%5===3){const x=x0+4+(h%7),y=y0+9;ell(x,y,4,3,OUT);ell(x,y,3,2,'#4E8A2E');p(x-1,y-1,'#6EAA44')}
+};
+PX.ghFrame=function(ctx,x,y,w,h){ // dibuja vidrio translúcido + marcos (dinámico)
+  ctx.fillStyle='rgba(200,235,250,.22)';ctx.fillRect(x,y,w,h);
+  ctx.fillStyle='rgba(255,255,255,.18)';for(let i=0;i<w;i+=16){ctx.fillRect(x+i+2,y+2,3,h-4)}
+  ctx.fillStyle='#E8E4DA';for(let i=0;i<=w;i+=16)ctx.fillRect(x+i-1,y,2,h);ctx.fillRect(x,y,w,2);ctx.fillRect(x,y+h-2,w,2);ctx.fillRect(x,y+(h/2|0),w,1);
+  ctx.fillStyle=OUT;ctx.fillRect(x-2,y-2,w+4,2);ctx.fillRect(x-2,y+h,w+4,2);ctx.fillRect(x-2,y,2,h);ctx.fillRect(x+w,y,2,h);
+};
+PX.treeSpot=function(x,y){ // lugar para plantar árbol (32x32)
+  ell(x+16,y+20,12,6,'#B38E52');ell(x+16,y+19,11,5,'#C9A464');PX.sign(x+9,y+4)};
+PX.fruitTree=function(cx,by,kind,ready){
+  PX.tree(cx,by,kind==='cherry'?'blossom':'fruit');
+  if(!ready)return;
+  const col={orange:['#F07A2A','#FFD07A'],apple:['#D8282E','#FF8A80'],cherry:['#B0102A','#FF5A70']}[kind];
+  [[-7,-26],[5,-32],[9,-22],[-3,-21],[-1,-36],[10,-30],[-10,-32],[3,-25]].forEach(q=>{r(cx+q[0]-1,by+q[1]-1,4,4,OUT);r(cx+q[0]-1,by+q[1]-1,3,3,col[0]);p(cx+q[0]-1,by+q[1]-1,col[1])});
+};
+// texto pixel 3x5
+const F={'0':'111101101101111','1':'010110010010111','2':'111001111100111','3':'111001111001111','4':'101101111001001','5':'111100111001111','6':'111100111101111','7':'111001010010010','8':'111101111101111','9':'111101111001111','+':'000010111010000','k':'101110100110101','.':'000000000000010','/':'001001010100100','x':'000101010101000',' ':'000000000000000'};
+PX.text=function(ctx,s,x,y,col,shadow){s=String(s);for(let i=0;i<s.length;i++){const m=F[s[i]]||F[' '];for(let j=0;j<15;j++)if(m[j]==='1'){if(shadow){ctx.fillStyle=shadow;ctx.fillRect(x+i*4+(j%3)+1,y+(j/3|0)+1,1,1)}ctx.fillStyle=col;ctx.fillRect(x+i*4+(j%3),y+(j/3|0),1,1)}}};
+PX.textW=s=>String(s).length*4-1;
+PX.textBig=function(ctx,s,x,y,col){s=String(s);for(let i=0;i<s.length;i++){const m=F[s[i]]||F[' '];for(let j=0;j<15;j++)if(m[j]==='1'){ctx.fillStyle=col;ctx.fillRect(x+i*8+(j%3)*2,y+(j/3|0)*2,2,2)}}};
+// ícono de producto procesado (16x16)
+PX.product=function(ctx,kind){PX.set(ctx,16,16);
+  if(kind==='jam'||kind==='applejam'){r(4,4,8,11,OUT);r(5,6,6,8,kind==='jam'?'#C02848':'#D86A2A');r(5,4,6,2,'#E2AA66');r(4,3,8,2,OUT);r(5,7,2,4,'rgba(255,255,255,.35)');r(6,9,4,3,'#F4EEDC')}
+  if(kind==='ojuice'||kind==='tjuice'){r(5,3,6,12,OUT);r(6,5,4,9,kind==='ojuice'?'#F2962E':'#D8343F');r(6,4,4,1,'#E8F6FC');r(6,6,1,6,'rgba(255,255,255,.4)');r(9,1,1,4,'#E8E4DA')}
+  if(kind==='tortilla'){ell(8,11,6,2,OUT);ell(8,10,6,2,'#F2D49A');ell(8,8,6,2,OUT);ell(8,7,6,2,'#F6DCA8');p(5,7,'#C9A464');p(10,6,'#C9A464');r(2,12,12,2,'#B8763A')}
+  if(kind==='pickles'||kind==='pumpkinsweet'){r(4,3,8,12,OUT);r(5,4,6,10,'rgba(200,235,250,.8)');r(5,7,6,7,kind==='pickles'?'#F08A2E':'#E8963D');r(4,2,8,2,'#A8642E');r(5,5,1,8,'rgba(255,255,255,.5)')}
+};
+})();
+
+/* ===== Temporadas extra, cempasúchil y el pueblo ===== */
+(function(){
+const {p,r,line,disc,ell,h2,OUT}=PX;
+PX.PAL.rain={g0:'#4C9E3C',g1:'#3C862E',g2:'#62B24C',g3:'#2E6E24',d0:'#B8844A',d1:'#A4703C',d2:'#C9965C',d3:'#8C5C30',leaf:['#1E5A28','#2A7432','#3E9040','#5EAE52'],fl:['#FFFFFF','#9F8BE8','#7EC6E8','#F7D24A']};
+PX.PAL.muertos={g0:'#93A044',g1:'#7C8936',g2:'#AEB95A',g3:'#626E2A',d0:'#DC9446',d1:'#C67E38',d2:'#E8AC60',d3:'#AA662C',leaf:['#7A3A1E','#A8502A','#D8742E','#F29A3A'],fl:['#F28A1E','#F7A82E','#9A3AB0','#E8324A']};
+// cempasúchil
+const _pc=PX.plantCrop;
+PX.plantCrop=function(tx,ty,type,stage){if(type!=='marigold')return _pc(tx,ty,type,stage);const x=tx*16,y=ty*16;
+  if(stage<2)return _pc(tx,ty,'lettuce',stage);
+  [[5,10],[11,9],[8,13]].forEach(q=>{line(x+q[0],y+q[1]+3,x+q[0],y+q[1],'#2F7A2E');p(x+q[0]-1,y+q[1]+2,'#45A83A');p(x+q[0]+1,y+q[1]+1,'#45A83A')});
+  const fl=(cx,cy,big)=>{disc(cx,cy,big?3:2,OUT);disc(cx,cy,big?2:1,'#F28A1E');p(cx-1,cy-1,'#FFC24A');p(cx+1,cy,'#D8661A');if(big){p(cx,cy-2,'#F7A82E');p(cx-2,cy,'#F7A82E')}};
+  if(stage>=3){fl(x+5,y+7,1);fl(x+11,y+6,1);fl(x+8,y+10,1)}else{fl(x+5,y+8,0);fl(x+11,y+7,0)}};
+// papel picado
+PX.papel=function(ctx,x,y,w,t){const cols=['#E8324A','#F28A1E','#9A3AB0','#3F9A4A','#3F7AD0','#F08AB4'];
+  ctx.fillStyle=OUT;for(let i=0;i<w;i++){const sag=Math.round(Math.sin(i/w*Math.PI)*4);ctx.fillRect(x+i,y+sag,1,1)}
+  for(let k=0;k<w/8-1;k++){const xx=x+4+k*8,sag=Math.round(Math.sin((xx-x)/w*Math.PI)*4),sw=Math.round(Math.sin(t*2+k)*1);ctx.fillStyle=cols[k%6];ctx.fillRect(xx+sw,y+sag+1,6,6);ctx.fillRect(xx+1+sw,y+sag+7,1,1);ctx.fillRect(xx+3+sw,y+sag+7,1,1);ctx.fillRect(xx+5+sw,y+sag+7,1,1);ctx.fillStyle='rgba(255,255,255,.6)';ctx.fillRect(xx+2+sw,y+sag+3,2,1)}};
+// lucecitas de invierno
+PX.lights=function(ctx,x,y,w,t){const cols=['#FF5A5A','#FFD84A','#5AD0FF','#7CFF7A','#FF8AF0'];ctx.fillStyle=OUT;for(let i=0;i<w;i++){const sag=Math.round(Math.sin(((i%16)/16)*Math.PI)*2);ctx.fillRect(x+i,y+sag,1,1)}
+  for(let k=0;k<w/8;k++){const xx=x+2+k*8,sag=Math.round(Math.sin((((xx-x)%16)/16)*Math.PI)*2),on=((t*2+k)|0)%3!==0;ctx.fillStyle=on?cols[k%5]:'#5A5A5A';ctx.fillRect(xx,y+sag+1,2,2);if(on){ctx.fillStyle='rgba(255,255,200,.35)';ctx.fillRect(xx-1,y+sag,4,4)}}};
+// vela
+PX.candle=function(ctx,x,y,t){ctx.fillStyle=OUT;ctx.fillRect(x-1,y-6,4,7);ctx.fillStyle='#F4EEDC';ctx.fillRect(x,y-5,2,5);const f=((t*8)|0)%2;ctx.fillStyle='#F7C82E';ctx.fillRect(x,y-8-f,2,2);ctx.fillStyle='#FF7A2E';ctx.fillRect(x,y-7,2,1)};
+
+/* ---------- pueblo ---------- */
+PX.sidewalk=function(tx,ty){const x0=tx*16,y0=ty*16,w=PX._season==='winter';r(x0,y0,16,16,w?'#D9E2EA':'#C9C2B6');r(x0,y0,16,1,w?'#C5D2DE':'#AFA89C');r(x0,y0,1,16,w?'#C5D2DE':'#AFA89C');r(x0+8,y0,1,16,w?'#C5D2DE':'#B9B2A6');r(x0,y0+8,16,1,w?'#C5D2DE':'#B9B2A6');p(x0+3,y0+4,'#DDD6CA');p(x0+12,y0+11,'#DDD6CA')};
+PX.cobble=function(tx,ty){const x0=tx*16,y0=ty*16,w=PX._season==='winter';r(x0,y0,16,16,w?'#B9C4CE':'#8C8478');
+  for(let j=0;j<4;j++)for(let i=0;i<4;i++){const xx=x0+i*4+(j%2)*2,yy=y0+j*4;r(xx,yy,3,3,w?'#CFD8E0':((h2(tx*4+i,ty*4+j)%3)?'#A39A8C':'#9A9184'));p(xx,yy,w?'#E8EEF2':'#B8AFA0')}
+  if(w&&h2(tx,ty)%2)r(x0+2,y0+6,8,2,'#F4F8FB')};
+PX.lamp=function(ctx,x,y,on){ctx.fillStyle='rgba(30,50,20,.25)';ctx.fillRect(x-3,y,8,2);ctx.fillStyle=OUT;ctx.fillRect(x,y-26,3,26);ctx.fillRect(x-3,y-32,9,7);ctx.fillStyle='#4A4A52';ctx.fillRect(x+1,y-25,1,24);ctx.fillStyle=on?'#FFE07A':'#C9D3DD';ctx.fillRect(x-2,y-31,7,5);if(on){ctx.fillStyle='rgba(255,220,120,.25)';ctx.fillRect(x-6,y-35,15,13)}};
+PX.bench=function(x,y){r(x,y-6,20,8,OUT);r(x+1,y-5,18,2,'#B87536');r(x+1,y-2,18,2,'#A8642E');r(x+2,y,2,3,OUT);r(x+16,y,2,3,OUT)};
+PX.kiosk=function(x,y){ // quiosco de plaza 64x60
+  r(x+6,y+56,56,4,'rgba(30,50,20,.28)');
+  ell(x+32,y+50,28,8,OUT);ell(x+32,y+49,27,7,'#D9D2C6');ell(x+32,y+48,24,5,'#E8E0D2');
+  [8,20,44,56].forEach(px=>{r(x+px-1,y+18,4,30,OUT);r(x+px,y+18,2,29,'#F4EEDC')});
+  for(let j=0;j<16;j++){const w=Math.round(6+j*2);r(x+32-w,y+2+j,w*2,1,OUT)}
+  for(let j=1;j<15;j++){const w=Math.round(6+j*2)-1;r(x+32-w,y+2+j,w*2,1,j%3?'#3F9A4A':'#2E7A38');r(x+32-w,y+2+j,w,1,j%3?'#4FAE58':'#3A8A44')}
+  r(x+2,y+17,60,3,OUT);r(x+3,y+17,58,1,'#E2BE5A');r(x+30,y-4,4,7,OUT);disc(x+32,y-5,2,'#F7C82E');
+  if(PX._season==='winter'){for(let j=0;j<6;j++){const w=Math.round(6+j*2);r(x+32-w,y+2+j,w*2,1,'#FFFFFF')}}
+};
+PX.emptyLot=function(x,y){ // 80x96 aprox
+  r(x+2,y+40,76,52,'#B8A47E');for(let i=0;i<24;i++){const h=h2(x+i,y+3);p(x+4+(h%72),y+42+((h>>6)%48),i%2?'#A08C66':'#CDB994')}
+  r(x+2,y+38,76,2,OUT);r(x+2,y+92,76,2,OUT);for(let i=0;i<76;i+=10){r(x+2+i,y+34,3,8,OUT);p(x+3+i,y+35,'#C98A48')}
+  PX.sign(x+32,y+52);
+};
+PX.store=function(x,y,b,lv){ // fachada 80x96 (ancla arriba-izq)
+  const W=b.wall,A=b.aw;
+  r(x+4,y+92,76,4,'rgba(30,50,20,.28)');
+  // cuerpo
+  r(x+2,y+20,76,74,OUT);r(x+3,y+21,74,72,W);
+  for(let i=0;i<9;i++)r(x+3,y+28+i*8,74,1,PX.shadeHex(W,-.08));
+  // cornisa
+  r(x,y+14,80,8,OUT);r(x+1,y+15,78,5,PX.shadeHex(W,-.25));r(x+1,y+15,78,1,PX.shadeHex(W,.15));
+  if(PX._season==='winter')r(x,y+12,80,4,'#FFFFFF');
+  // letrero
+  r(x+12,y+24,56,14,OUT);r(x+13,y+25,54,12,'#3A2216');r(x+14,y+26,52,10,b.signBg||'#F4E2B8');
+  PX.storeIcon(x+18,y+27,b.icon);for(let i=0;i<5;i++)r(x+30+i*7,y+30,5,2,'#3A2216');
+  // ventanas piso alto
+  [x+10,x+56].forEach(wx=>{r(wx,y+42,14,12,OUT);r(wx+1,y+43,12,10,'#7EC6E8');r(wx+1,y+43,12,3,'#B6E2F4');r(wx+7,y+43,1,10,OUT);r(wx-1,y+54,16,3,OUT);r(wx,y+54,14,2,PX.shadeHex(A[0],-.1))});
+  r(x+30,y+42,20,12,OUT);r(x+31,y+43,18,10,'#7EC6E8');r(x+31,y+43,18,3,'#B6E2F4');r(x+40,y+43,1,10,OUT);
+  // toldo
+  r(x+4,y+58,72,10,OUT);for(let i=0;i<9;i++){r(x+5+i*8,y+59,8,7,i%2?A[1]:A[0]);r(x+5+i*8,y+64,8,2,PX.shadeHex(i%2?A[1]:A[0],-.2))}
+  for(let i=0;i<9;i++){r(x+6+i*8,y+67,6,2,OUT);r(x+7+i*8,y+67,4,1,i%2?A[1]:A[0])}
+  // escaparate y puerta
+  r(x+8,y+70,30,22,OUT);r(x+9,y+71,28,20,'#9ED4EC');r(x+9,y+71,28,4,'#C8EAF6');PX.storeIcon(x+16,y+78,b.icon);PX.storeIcon(x+26,y+80,b.icon);
+  r(x+46,y+68,18,26,OUT);r(x+47,y+69,16,25,'#8A4E22');r(x+49,y+71,12,10,'#9ED4EC');p(x+60,y+84,'#F7D24A');
+  // macetas
+  r(x+68,y+84,8,8,OUT);r(x+69,y+85,6,6,'#B8674E');disc(x+72,y+82,3,'#3F8A2E');p(x+71,y+81,'#F08AB4');
+  // estrellas de nivel
+  for(let i=0;i<(lv||1);i++){r(x+60+i*0,y+0,0,0,'#000')}
+};
+PX.shadeHex=function(hex,a){let n=parseInt(hex.slice(1),16),R=n>>16,G=n>>8&255,B=n&255;if(a<0){R=Math.round(R*(1+a));G=Math.round(G*(1+a));B=Math.round(B*(1+a))}else{R=Math.round(R+(255-R)*a);G=Math.round(G+(255-G)*a);B=Math.round(B+(255-B)*a)}return '#'+((1<<24)|(R<<16)|(G<<8)|B).toString(16).slice(1)};
+PX.storeIcon=function(x,y,ic){
+  if(ic==='cup'){r(x,y+1,7,6,OUT);r(x+1,y+2,5,4,'#F4EEDC');r(x+1,y+2,5,1,'#8A4E22');r(x+7,y+3,2,2,OUT);p(x+2,y-1,'#C9D3DD');p(x+4,y-2,'#C9D3DD')}
+  if(ic==='flower'){[[3,0],[0,3],[6,3],[3,6]].forEach(q=>r(x+q[0],y+q[1],2,2,'#E8324A'));r(x+3,y+3,2,2,'#F7D24A');r(x+3,y+5,1,3,'#3F8A2E')}
+  if(ic==='glass'){r(x+1,y,6,8,OUT);r(x+2,y+2,4,5,'#F2962E');r(x+2,y+1,4,1,'#E8F6FC');r(x+5,y-2,1,4,'#E8324A')}
+  if(ic==='taco'){r(x,y+3,9,5,OUT);r(x+1,y+3,7,4,'#F2D49A');r(x+1,y+2,2,2,'#3F9A4A');r(x+4,y+2,2,2,'#E8324A');r(x+6,y+2,2,2,'#8A4E22')}
+  if(ic==='plate'){ell(x+4,y+5,4,2,OUT);ell(x+4,y+5,3,1,'#F4EEDC');r(x+3,y+2,3,3,'#E8892A');r(x-1,y+1,1,6,'#C9D3DD');r(x+9,y+1,1,6,'#C9D3DD')}
+  if(ic==='cart'){r(x,y+1,8,5,OUT);r(x+1,y+2,6,3,'#3F9A4A');r(x+1,y+7,2,2,OUT);r(x+5,y+7,2,2,OUT);r(x+2,y,2,2,'#E8324A');r(x+4,y,2,2,'#F7D24A')}
+};
+})();
+
+/* ===== Productos de los negocios (16x16) ===== */
+(function(){
+const {p,r,line,disc,ell,OUT}=PX;
+const _prod=PX.product;
+PX.product=function(ctx,k){PX.set(ctx,16,16);
+  const glass=(c1,c2,straw)=>{r(4,3,8,12,OUT);r(5,4,6,10,'rgba(220,240,250,.9)');r(5,6,6,8,c1);r(5,6,6,1,c2);r(6,7,1,6,'rgba(255,255,255,.45)');if(straw){r(9,0,1,6,straw);r(10,0,2,1,straw)}};
+  const bowl=(c1,top)=>{r(2,8,12,5,OUT);r(3,8,10,4,'#F4EEDC');r(4,12,8,2,OUT);r(3,7,10,2,OUT);r(4,6,8,3,c1);if(top)top()};
+  switch(k){
+  case 'cake':r(2,8,12,7,OUT);r(3,9,10,5,'#F7E2C0');r(3,11,10,1,'#E8324A');r(3,9,10,1,'#FFFFFF');r(3,7,10,2,OUT);r(4,6,8,2,'#FFFFFF');r(6,3,3,3,OUT);r(7,4,1,1,'#E8324A');r(6,4,1,1,'#FF7A88');break;
+  case 'agua':glass('#F2962E','#FFC24A','#E8324A');break;
+  case 'pie':ell(8,10,6,4,OUT);ell(8,10,5,3,'#D9A458');ell(8,9,4,2,'#C0402E');for(let i=0;i<3;i++)r(5+i*3,8,1,3,'#E8B868');break;
+  case 'bouquet':r(6,10,4,5,OUT);r(7,10,2,4,'#3F8A2E');r(4,11,8,3,'#F4EEDC');[[4,4],[8,3],[12,5],[6,7],[10,7]].forEach(q=>{disc(q[0],q[1],2,OUT);disc(q[0],q[1],1,'#F7C82E');p(q[0],q[1],'#6B3A16')});break;
+  case 'marigoldA':r(5,10,6,5,OUT);r(6,11,4,3,'#9A3AB0');[[4,5],[8,3],[12,5],[6,8],[10,8]].forEach(q=>{disc(q[0],q[1],2,OUT);disc(q[0],q[1],1,'#F28A1E');p(q[0]-1,q[1]-1,'#FFC24A')});break;
+  case 'crown':ell(8,9,6,4,OUT);ell(8,9,5,3,'#3F8A2E');ell(8,9,3,1,'rgba(0,0,0,0)');[[3,8],[6,6],[10,6],[13,8],[5,11],[11,11],[8,12]].forEach((q,i)=>{r(q[0]-1,q[1]-1,3,3,i%2?'#F28A1E':'#F7C82E')});break;
+  case 'smoothie':glass('#F08AB4','#FFC0D8','#FFFFFF');break;
+  case 'green':glass('#7CCB4E','#B6E88A','#3F8A2E');break;
+  case 'fruitcup':bowl('#F4EEDC',()=>{r(4,5,3,3,'#F07A2A');r(7,4,3,3,'#D8282E');r(10,5,2,3,'#B0102A');p(5,5,'#FFD07A');p(8,4,'#FF8A80')});break;
+  case 'tacos':for(let i=0;i<3;i++){const x=1+i*5;r(x,7,6,6,OUT);r(x+1,8,4,4,'#F2D49A');r(x+1,7,4,2,'#3F9A4A');p(x+2,7,'#E8324A');p(x+4,8,'#8A4E22')}r(1,13,15,2,'#B8763A');break;
+  case 'elote':r(6,2,4,12,OUT);for(let j=0;j<5;j++)r(7,3+j*2,2,1,'#F7D24A'),r(7,4+j*2,2,1,'#E8B23A');r(4,9,3,6,'#7CCB4E');r(9,9,3,6,'#5FA552');r(7,14,2,2,'#8A6B4E');p(8,4,'#FFFFFF');break;
+  case 'tostada':ell(8,10,6,3,OUT);ell(8,10,5,2,'#E2B05A');r(4,7,8,3,'#3F9A4A');p(5,7,'#F08A2E');p(9,8,'#F08A2E');p(7,7,'#FFFFFF');break;
+  case 'soup':bowl('#E8892A',()=>{p(6,6,'#FFFFFF');p(9,7,'#3F9A4A');r(7,1,1,3,'rgba(255,255,255,.6)');r(10,2,1,3,'rgba(255,255,255,.6)')});break;
+  case 'salad':bowl('#5FA552',()=>{p(5,6,'#E8324A');p(9,5,'#E8324A');p(7,7,'#F08A2E');p(11,6,'#7CCB4E');p(6,5,'#B6E88A')});break;
+  case 'dessert':r(4,6,8,9,OUT);r(5,7,6,7,'rgba(220,240,250,.9)');r(5,10,6,4,'#E8963D');r(5,8,6,2,'#FFFFFF');r(7,5,2,2,'#B0102A');p(7,4,'#3F8A2E');break;
+  case 'basket':r(2,8,12,7,OUT);r(3,9,10,5,'#C98A48');for(let i=0;i<5;i++)r(3+i*2,9,1,5,'#A8642E');line(3,8,7,2,OUT);line(12,8,8,2,OUT);r(4,6,3,3,'#C02848');r(7,5,2,4,'#F2962E');r(10,6,3,3,'#F2D49A');break;
+  case 'vegbox':r(1,8,14,7,OUT);r(2,9,12,5,'#B87536');r(2,11,12,1,'#8A4E22');r(3,5,3,4,'#5FA552');r(6,6,3,3,'#E63B3B');r(9,5,2,4,'#F08A2E');r(11,5,3,3,'#7CCB4E');break;
+  default:_prod(ctx,k);
+  }};
+})();
+
+</script>
+<script>
+(function(){
+'use strict';
+const $=id=>document.getElementById(id);
+/* ===================== DATOS ===================== */
+const T=16,MW=66,MH=34,DAYLEN=150,SDAYS=3;
+const SEAS=['spring','rain','summer','autumn','muertos','winter'],SEASN={spring:'Primavera',rain:'Temporada de lluvias',summer:'Verano',autumn:'Otoño',muertos:'Día de Muertos',winter:'Invierno'};
+const CROPS={
+ lettuce:{n:'Lechuga',cost:2,t:20,sell:7,xp:1,s:['spring','rain','autumn'],lv:1},
+ carrot:{n:'Zanahoria',cost:4,t:35,sell:12,xp:2,s:['spring','autumn'],lv:1},
+ strawberry:{n:'Fresa',cost:8,t:60,sell:22,xp:3,s:['spring','rain','summer'],lv:2},
+ marigold:{n:'Cempasúchil',cost:9,t:55,sell:30,xp:4,s:['muertos'],lv:2},
+ tomato:{n:'Tomate',cost:10,t:50,sell:25,xp:3,s:['rain','summer'],lv:3},
+ corn:{n:'Maíz',cost:12,t:80,sell:33,xp:4,s:['rain','summer','autumn'],lv:4},
+ sunflower:{n:'Girasol',cost:15,t:95,sell:44,xp:5,s:['summer'],lv:5},
+ pumpkin:{n:'Calabaza',cost:25,t:150,sell:78,xp:7,s:['autumn','muertos'],lv:6}
+};
+const FRUITS={orange:{n:'Naranja',tree:'Naranjo',price:300,t:120,y:3,sell:16,lv:5},apple:{n:'Manzana',tree:'Manzano',price:450,t:150,y:3,sell:22,lv:7},cherry:{n:'Cereza',tree:'Cerezo',price:650,t:180,y:4,sell:26,lv:9}};
+const MACH={
+ jam:{n:'Mermeladas',price:800,lv:4,rec:[{out:'jam',n:'Mermelada de fresa',in:{strawberry:3},t:60,sell:110,xp:10},{out:'applejam',n:'Mermelada de manzana',in:{apple:3},t:70,sell:125,xp:12}]},
+ tort:{n:'Tortillería',price:1050,lv:5,rec:[{out:'tortilla',n:'Tortillas',in:{corn:4},t:70,sell:190,xp:14}]},
+ juice:{n:'Jugos',price:1400,lv:6,rec:[{out:'ojuice',n:'Jugo de naranja',in:{orange:3},t:45,sell:85,xp:9},{out:'tjuice',n:'Jugo de tomate',in:{tomato:3},t:50,sell:120,xp:11}]},
+ can:{n:'Conservas',price:2000,lv:8,rec:[{out:'pickles',n:'Zanahorias en conserva',in:{carrot:4},t:55,sell:85,xp:10},{out:'pumpkinsweet',n:'Dulce de calabaza',in:{pumpkin:2},t:90,sell:250,xp:18}]}
+};
+const PADS=[{k:'jam',x:16,y:4},{k:'tort',x:20,y:4},{k:'juice',x:24,y:4},{k:'can',x:28,y:4}];
+const PROD={};Object.values(MACH).forEach(m=>m.rec.forEach(r=>PROD[r.out]=r));
+const NAME=k=>CROPS[k]?CROPS[k].n:FRUITS[k]?FRUITS[k].n:PROD[k]?PROD[k].n:k;
+const LOTP=[0,200,400,650,1000,1400,1900,2500,3200,4000,5000,7000],LOTL=[1,1,2,3,4,5,6,7,8,9,10,11];
+const LOTS=[];for(let r=0;r<3;r++)for(let c=0;c<4;c++){const i=LOTS.length;LOTS.push({i,x:3+c*7,y:14+r*5,w:6,h:4,price:LOTP[i],lv:LOTL[i],gh:i===11})}
+const SPOTS=[[33,14],[37,14],[41,14],[33,19],[37,19],[41,19]];
+const TITLES=[[1,'Semilla'],[3,'Brote'],[5,'Huerto'],[8,'Granja'],[11,'Mercado'],[15,'Imperio']];
+const UPG={sign:{n:'Letrero llamativo',d:'Llegan más clientes',p:[250,800,2200]},awning:{n:'Toldo nuevo',d:'+10% en precios por nivel',p:[400,1300,3200]},helper:{n:'Ayudante',d:'Vende mientras no juegas (×3)',p:[900]},sprinkler:{n:'Aspersores',d:'Todo crece 15% más rápido por nivel',p:[600,1800]},barn:{n:'Granero más grande',d:'+50 de espacio por nivel',p:[150,450,1000,2200]}};
+const BIZ=[
+ {k:'cafe',n:'Cafetería',price:5000,lv:5,wall:'#E8D2A6',aw:['#8A4E22','#F4EEDC'],icon:'cup',rec:[{out:'agua',n:'Agua fresca de naranja',in:{orange:3},t:40,sell:110,xp:9},{out:'cake',n:'Pastel de fresa',in:{strawberry:4,jam:1},t:90,sell:330,xp:22},{out:'pie',n:'Pay de manzana',in:{apple:3,applejam:1},t:100,sell:360,xp:24}]},
+ {k:'flor',n:'Florería',price:12000,lv:7,wall:'#F4D6DE',aw:['#D86A8A','#FFFFFF'],icon:'flower',rec:[{out:'bouquet',n:'Ramo de girasoles',in:{sunflower:4},t:60,sell:230,xp:16},{out:'marigoldA',n:'Arreglo de cempasúchil',in:{marigold:5},t:70,sell:240,xp:17},{out:'crown',n:'Corona de flores',in:{sunflower:3,marigold:3},t:90,sell:390,xp:26}]},
+ {k:'jugos',n:'Juguería',price:25000,lv:9,wall:'#FBE6B0',aw:['#F2962E','#FFFFFF'],icon:'glass',rec:[{out:'smoothie',n:'Licuado de fresa',in:{strawberry:3,orange:2},t:50,sell:190,xp:14},{out:'green',n:'Jugo verde',in:{lettuce:3,apple:2},t:50,sell:170,xp:13},{out:'fruitcup',n:'Coctel de frutas',in:{orange:2,apple:2,cherry:2},t:80,sell:340,xp:24}]},
+ {k:'taco',n:'Taquería',price:50000,lv:11,wall:'#E2B47E',aw:['#3F9A4A','#C0402E'],icon:'taco',rec:[{out:'elote',n:'Elotes',in:{corn:4},t:50,sell:210,xp:15},{out:'tostada',n:'Tostadas',in:{tortilla:1,carrot:2,lettuce:1},t:60,sell:360,xp:24},{out:'tacos',n:'Tacos',in:{tortilla:1,tomato:2,lettuce:2},t:70,sell:480,xp:30}]},
+ {k:'rest',n:'Restaurante',price:100000,lv:13,wall:'#D9D2C6',aw:['#2E4A3A','#E8E0C8'],icon:'plate',rec:[{out:'salad',n:'Ensalada gourmet',in:{lettuce:3,tomato:2,strawberry:2},t:70,sell:420,xp:28},{out:'soup',n:'Crema de calabaza',in:{pumpkin:2,carrot:2},t:90,sell:520,xp:34},{out:'dessert',n:'Postre de calabaza',in:{pumpkinsweet:1,cherry:3},t:100,sell:720,xp:44}]},
+ {k:'super',n:'Supermercado MyGarden',price:250000,lv:15,wall:'#E8EEF2',aw:['#3F9A4A','#FFFFFF'],icon:'cart',rec:[{out:'vegbox',n:'Caja de verduras',in:{lettuce:4,carrot:4,tomato:4},t:80,sell:560,xp:36},{out:'basket',n:'Canasta MyGarden',in:{jam:1,ojuice:1,tortilla:1,pickles:1},t:120,sell:1250,xp:70}]}
+];
+BIZ.forEach(b=>{MACH[b.k]={n:b.n,price:b.price,lv:b.lv,rec:b.rec,big:true};b.rec.forEach(r=>PROD[r.out]=r)});
+const BPADS=[{k:'cafe',x:47,y:13},{k:'flor',x:53,y:13},{k:'jugos',x:59,y:13},{k:'taco',x:47,y:22},{k:'rest',x:53,y:22},{k:'super',x:59,y:22}];
+const padOf=k=>{const a=PADS.find(p=>p.k===k);if(a)return{x:a.x*T+24,y:a.y*T-14};const b=BPADS.find(p=>p.k===k);return{x:b.x*T+40,y:b.y*T+8}};
+const TWW=40,TWH=16;
+const bizX=i=>(2+i*6)*16,bizY=16;
+const need=l=>Math.round(15*Math.pow(l,1.6));
+/* ===================== ESTADO ===================== */
+const KEY='mygarden_px_v1';
+function fresh(){return{v:1,coins:60,xp:0,lv:1,lots:[0],plots:{},trees:{},mach:{},inv:{},sellOff:{},up:{},ptime:DAYLEN*.3,sel:'lettuce',cam:null,zoom:0,orders:[],st:{sold:0,earned:0,harvest:0},last:Date.now(),music:true,sfx:true,intro:false,lastSeason:0,biz:{},firstSale:0}}
+let S=fresh();
+function load(){try{const j=JSON.parse(localStorage.getItem(KEY)||'null');if(j&&j.v===1){S=Object.assign(fresh(),j);S.st=Object.assign(fresh().st,j.st||{});S.biz=S.biz||{}}}catch(e){}}
+function save(){S.last=Date.now();try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+const dayN=()=>Math.floor(S.ptime/DAYLEN),seasonI=()=>Math.floor(dayN()/SDAYS)%SEAS.length,season=()=>SEAS[seasonI()],tod=()=>(S.ptime%DAYLEN)/DAYLEN;
+const cap=()=>50+50*(S.up.barn||0),stock=()=>Object.values(S.inv).reduce((a,b)=>a+b,0);
+const speedMul=()=>1/(1+.15*(S.up.sprinkler||0));
+function val(k){let v=CROPS[k]?CROPS[k].sell:FRUITS[k]?FRUITS[k].sell:PROD[k]?PROD[k].sell:1;if(CROPS[k]&&!CROPS[k].s.includes(season()))v*=1.35;return Math.round(v*(1+.1*(S.up.awning||0)))}
+const title=()=>{let t='Semilla';TITLES.forEach(x=>{if(S.lv>=x[0])t=x[1]});return t},titleI=()=>{let t=0;TITLES.forEach((x,i)=>{if(S.lv>=x[0])t=i});return t};
+/* ===================== MAPA ===================== */
+const G=new Uint8Array(MW*MH);// 0 pasto 1 tierra campo 2 camino 3 agua 4 pasto huerto
+const id=(x,y)=>y*MW+x;
+function genMap(){
+  for(let y=0;y<MH;y++)for(let x=0;x<MW;x++)G[id(x,y)]=0;
+  for(let y=13;y<=28;y++)for(let x=2;x<=30;x++)G[id(x,y)]=1;
+  for(let x=2;x<MW;x++){G[id(x,10)]=2;G[id(x,11)]=2}
+  for(let y=7;y<=9;y++){G[id(4,y)]=2;G[id(5,y)]=2}
+  for(let y=12;y<=12;y++){G[id(5,y)]=2;G[id(6,y)]=2}
+  for(let x=9;x<=10;x++)for(let y=7;y<=9;y++)G[id(x,y)]=2;
+  for(let x=16;x<=30;x++)G[id(x,7)]=2;for(let x=16;x<=30;x++)G[id(x,8)]=2;
+  for(let x=36;x<=40;x++)G[id(x,9)]=2;
+  for(let y=12;y<=28;y++)G[id(45,y)]=2;for(let x=45;x<=63;x++){G[id(x,19)]=2;G[id(x,28)]=2}
+  for(let y=24;y<=31;y++)for(let x=33;x<=44;x++){const dx=(x-38.5)/5.6,dy=(y-27.5)/3.6;if(dx*dx+dy*dy<1)G[id(x,y)]=3}
+}
+const plotLot=(x,y)=>LOTS.find(L=>x>=L.x&&x<L.x+L.w&&y>=L.y&&y<L.y+L.h);
+/* ===================== PANTALLA Y MUNDO ===================== */
+const cv=$('cv'),ctx=cv.getContext('2d');
+let world=null,wctx=null,pcan=document.createElement('canvas'),pctx=pcan.getContext('2d');
+let DPR=1,SC=4,BASESC=4,VW=0,VH=0,scene='farm',town=null,tctx=null,camSave={farm:null,town:null};
+const cam={x:0,y:0};
+function resize(){DPR=Math.min(3,window.devicePixelRatio||1);VW=innerWidth;VH=innerHeight;cv.width=Math.round(VW*DPR);cv.height=Math.round(VH*DPR);cv.style.width=VW+'px';cv.style.height=VH+'px';
+  BASESC=Math.max(2,Math.floor(cv.height/(T*13)));SC=Math.max(2,Math.min(BASESC+3,BASESC+(S.zoom||0)));
+  pcan.width=Math.ceil(cv.width/SC)+2;pcan.height=Math.ceil(cv.height/SC)+2;clampCam()}
+function clampCam(){const pw=cv.width/SC,ph=cv.height/SC,WW=(scene==='farm'?MW:TWW)*T,WH=(scene==='farm'?MH:TWH)*T;cam.x=Math.max(0,Math.min(WW-pw,cam.x));cam.y=Math.max(0,Math.min(WH-ph,cam.y));if(pw>WW)cam.x=(WW-pw)/2;if(ph>WH)cam.y=(WH-ph)/2}
+function buildWorld(){
+  if(!world){world=document.createElement('canvas');world.width=MW*T;world.height=MH*T;wctx=world.getContext('2d')}
+  const sn=season();PX.set(wctx,MW*T,MH*T);PX.setSeason(sn);
+  const isW=(x,y)=>x>=0&&y>=0&&x<MW&&y<MH&&G[id(x,y)]===3;
+  for(let y=0;y<MH;y++)for(let x=0;x<MW;x++){const g=G[id(x,y)];
+    if(g===3)PX.water(x,y,0);else if(g===2)PX.path(x,y);else if(g===1)PX.dirt(x,y);else PX.grass(x,y)}
+  for(let y=0;y<MH;y++)for(let x=0;x<MW;x++)if(isW(x,y))PX.shore(x,y,{u:isW(x,y-1),d:isW(x,y+1),l:isW(x-1,y),r:isW(x+1,y)});
+  // terrenos
+  LOTS.forEach(L=>{const own=S.lots.includes(L.i);
+    for(let y=L.y;y<L.y+L.h;y++)for(let x=L.x;x<L.x+L.w;x++){if(own)PX.soil(x,y,false);else{PX.grass(x,y);PX.weeds(x,y)}}
+    if(!own){PX.sign(L.x*T+L.w*T/2-7,L.y*T+L.h*T/2-12);const t=L.price>=1000?(L.price/1000)+'k':String(L.price);const tw=t.length*8-2,tx0=Math.round(L.x*T+L.w*T/2-tw/2),ty0=L.y*T+L.h*T/2+6;wctx.fillStyle='#3A2216';wctx.fillRect(tx0-4,ty0,tw+8,16);wctx.fillStyle='#F7C82E';wctx.fillRect(tx0-3,ty0+1,tw+6,14);wctx.fillStyle='#FFF0A0';wctx.fillRect(tx0-3,ty0+1,tw+6,2);PX.textBig(wctx,t,tx0,ty0+3,'#3A2216')}});
+  // cercas del campo
+  PX.fenceH(2*T,12*T+4,3*T);PX.fenceH(7*T,12*T+4,24*T);PX.fenceH(2*T,28*T+6,29*T);PX.fenceV(2*T-2,13*T,16*T);PX.fenceV(31*T-2,13*T,16*T);
+  // huerto: cerca baja
+  PX.fenceH(32*T,12*T+4,13*T);
+  // árboles del borde
+  const rr=(a,b)=>{let s=a*7919+b*104729;return ((s^(s>>5))%1000)/1000};
+  for(let x=0;x<MW;x+=2){PX.pine(x*T+8+((x*7)%5),28+((x*3)%4));}
+  for(let x=0;x<MW;x+=3){if(x>=2&&x<=31)continue;PX.tree(x*T+10,MH*T-4,'oak')}
+  for(let x=2;x<=31;x+=3)PX.tree(x*T+8,MH*T+6,'oak');
+  for(let y=4;y<MH;y+=3){if(y>=10&&y<=11)continue;PX.pine(10,y*T+14)}
+  for(let y=13;y<MH;y+=3)PX.pine(MW*T-8,y*T+12);
+  PX.pine(MW*T-8,8*T);
+  // decoración
+  [[13,8.4,'bush'],[31,9.2,'bush'],[32.5,25,'oak'],[44,31,'oak'],[13.5,2.6,'blossom'],[33,6.5,'fruit'],[50,8,'blossom'],[58,7.5,'oak'],[63,31,'blossom']].forEach(d=>{if(d[2]==='bush')PX.bush(d[0]*T,d[1]*T,true);else PX.tree(d[0]*T,d[1]*T,d[2])});
+  PX.rock(15*T,9.6*T);PX.rock(44*T,9.4*T);PX.stump(31.5*T,30.5*T);
+  // casa, granero, puesto
+  PX.house(32,36);PX.barn(128,46);PX.stall(576,72);
+  // terrenos de talleres sin construir
+  PADS.forEach(p=>{if(!S.mach[p.k])PX.pad(p.x*T,p.y*T-8)});
+  SPOTS.forEach((s,i)=>{if(!S.trees[i])PX.treeSpot(s[0]*T,s[1]*T)});
+  BPADS.forEach(bp=>{const b=BIZ.find(x=>x.k===bp.k),x=bp.x*T,y=bp.y*T;if(S.mach[bp.k])PX.store(x,y-16,b,1);else{PX.emptyLot(x,y-16);const t=b.price>=1000?Math.round(b.price/1000)+'k':String(b.price),tw=t.length*8-2,tx0=Math.round(x+40-tw/2),ty0=y+56;wctx.fillStyle='#3A2216';wctx.fillRect(tx0-4,ty0,tw+8,16);wctx.fillStyle='#F7C82E';wctx.fillRect(tx0-3,ty0+1,tw+6,14);PX.textBig(wctx,t,tx0,ty0+3,'#3A2216')}});
+  cache={};if(town||S.biz)buildTown();
+}
+function buildTown(){
+  if(!town){town=document.createElement('canvas');town.width=TWW*T;town.height=TWH*T;tctx=town.getContext('2d')}
+  PX.set(tctx,TWW*T,TWH*T);PX.setSeason(season());
+  for(let y=0;y<TWH;y++)for(let x=0;x<TWW;x++){if(y===7||y===10)PX.sidewalk(x,y);else if(y===8||y===9)PX.cobble(x,y);else PX.grass(x,y)}
+  for(let x=0;x<TWW;x+=2)PX.pine(x*T+8,20);
+  BIZ.forEach((b,i)=>{const own=S.mach[b.k];if(own)PX.store(bizX(i),bizY,b,1);else{PX.emptyLot(bizX(i),bizY);const t=b.price>=1000?Math.round(b.price/1000)+'k':String(b.price),tw=t.length*8-2,tx0=Math.round(bizX(i)+40-tw/2),ty0=bizY+70;tctx.fillStyle='#3A2216';tctx.fillRect(tx0-4,ty0,tw+8,16);tctx.fillStyle='#F7C82E';tctx.fillRect(tx0-3,ty0+1,tw+6,14);PX.textBig(tctx,t,tx0,ty0+3,'#3A2216')}});
+  for(let i=0;i<=6;i++)PX.lamp(tctx,(1+i*6)*16+6,7*16+14,false);
+  PX.kiosk(20*16-32,11*16+6);
+  [[6,13],[12,14],[27,13],[33,14]].forEach(q=>PX.bench(q[0]*16,q[1]*16+10));
+  [[3,15.6,'oak'],[9,15.8,'blossom'],[15,15.6,'fruit'],[25,15.8,'oak'],[31,15.6,'blossom'],[37,15.8,'oak']].forEach(t=>PX.tree(t[0]*16,t[1]*16,t[2]));
+  [[17,13],[23,13],[16,14.5],[24,14.5]].forEach(q=>PX.bush(q[0]*16+8,q[1]*16+12,false));
+}
+/* ===================== SPRITES EN CACHÉ ===================== */
+let cache={};
+function spr(key,w,h,fn){if(cache[key])return cache[key];const c=document.createElement('canvas');c.width=w;c.height=h;const g=c.getContext('2d');PX.set(g,w,h);PX.setSeason(season());fn(g);return cache[key]=c}
+const cropSpr=(k,st)=>spr('c'+k+st,16,16,()=>PX.plantCrop(0,0,k,st));
+const treeSpr=(k,ready)=>spr('t'+k+ready,48,58,()=>PX.fruitTree(24,52,k,ready));
+const machSpr=k=>spr('m'+k,48,52,()=>PX.workshop(0,2,k));
+const prodSpr=k=>spr('p'+k,16,16,g=>PX.product(g,k));
+function itemSpr(k){if(CROPS[k])return cropSpr(k,3);if(FRUITS[k])return spr('f'+k,16,16,g=>{const col={orange:['#F07A2A','#FFD07A'],apple:['#D8282E','#FF8A80'],cherry:['#B0102A','#FF5A70']}[k];PX.disc(8,9,5,PX.OUT);PX.disc(8,9,4,col[0]);PX.p(6,7,col[1]);PX.p(7,6,col[1]);PX.r(8,2,1,3,'#5A3218');PX.ell(10,4,2,1,'#3F8A2E')});return prodSpr(k)}
+const coinC=(()=>{const c=document.createElement('canvas');c.width=c.height=8;const g=c.getContext('2d');const m=['..oooo..','.oyyyyo.','oyYYyyyo','oyYyyyyo','oyyyyyyo','oyyyyyDo','.oyyyDo.','..oooo..'],cm={o:'#3A2216',y:'#F7C82E',Y:'#FFF0A0',D:'#C98A1A'};m.forEach((row,j)=>[...row].forEach((ch,i)=>{if(cm[ch]){g.fillStyle=cm[ch];g.fillRect(i,j,1,1)}}));return c})();
+const COIN='<img src="'+coinC.toDataURL()+'" alt="">';
+function canv(c,size){const d=document.createElement('canvas');d.width=c.width;d.height=c.height;d.getContext('2d').drawImage(c,0,0);d.style.width=d.style.height=(size||40)+'px';return d}
+function sprURL(c){return c.toDataURL()}
+/* íconos pixel para botones */
+const ICONS={
+ orders:['....oooooo..','...oPPPPPPo.','..oPPPPPPPo.','..oPLLLLLPo.','..oPPPPPPPo.','..oPLLLLPPo.','..oPPPPPPPo.','..oPLLLLLPo.','..oPPPPPPPo.','.ooPPPPPPo..','oPPPPPPPo...','.ooooooo....'],
+ build:['......ooo...','.....oHHHo..','....oHHHHHo.','.....oHHHo..','....ooHoo...','...oWo......','..oWo.......','.oWo........','oWo.........','oo..........','............','............'],
+ menu:['............','.oooooooooo.','.oCCCCCCCCo.','.oooooooooo.','............','.oooooooooo.','.oCCCCCCCCo.','.oooooooooo.','............','.oooooooooo.','.oCCCCCCCCo.','.oooooooooo.'],
+ barn:['....oooo....','...oRRRRo...','..oRRRRRRo..','.oRRRRRRRRo.','oRRWWWWWWRRo','.oRWoWWoWRo.','.oRWWoWoWRo.','.oRWoWWoWRo.','.oRWWWWWWRo.','.oRRRRRRRRo.','.oooooooooo.','............']
+};
+const ICOLS={o:'#3A2216',P:'#F4E2B8',L:'#B8763A',H:'#8C8A86',W:'#C98A48',C:'#FFF4D6',R:'#B8442E'};
+function iconImg(name,sz){return '<img src="'+icon(name).toDataURL()+'" style="width:'+sz+'px;height:'+sz+'px;image-rendering:pixelated" alt="">'}
+function icon(name,sz){const m=ICONS[name],c=document.createElement('canvas');c.width=c.height=12;const g=c.getContext('2d');m.forEach((row,j)=>[...row].forEach((ch,i)=>{if(ICOLS[ch]){g.fillStyle=ICOLS[ch];g.fillRect(i,j,1,1)}}));c.className='ico';if(sz)c.style.width=c.style.height=sz+'px';return c}
+function sprout(stage){const c=document.createElement('canvas');c.width=c.height=16;const g=c.getContext('2d');PX.set(g,16,16);
+  PX.r(1,0,14,16,'#3A2216');PX.r(0,1,16,14,'#3A2216');PX.r(1,1,14,14,'#2E6A40');PX.r(1,1,14,5,'#3E7E52');PX.ell(8,13,5,2,'#E2BE8A');
+  const h=[3,5,6,8,9,10][stage];PX.r(7,13-h,2,h,'#FFF4D6');
+  PX.r(4,12-h,3,2,'#A8E07E');PX.p(3,11-h,'#A8E07E');PX.r(9,11-h,3,2,'#7FC86A');PX.p(12,10-h,'#7FC86A');
+  if(stage>=2){PX.r(4,13-h+3,2,1,'#7FC86A');PX.r(10,13-h+4,2,1,'#A8E07E')}
+  if(stage>=4){PX.r(7,10-h,2,2,'#F08AB4');PX.p(8,10-h,'#F7D24A')}
+  if(stage>=5){PX.p(3,3,'#F7C82E');PX.p(12,2,'#F7C82E');PX.p(13,6,'#F7C82E')}
+  c.className='ico';return c}
+/* ===================== AUDIO ===================== */
+let AC=null,bus=null;
+function ac(){try{if(!AC){const C=window.AudioContext||window.webkitAudioContext;if(!C)return null;AC=new C();const m=AC.createGain();m.gain.value=.9;const lp=AC.createBiquadFilter();lp.type='lowpass';lp.frequency.value=2800;const dl=AC.createDelay(1);dl.delayTime.value=.22;const fb=AC.createGain();fb.gain.value=.28;const wet=AC.createGain();wet.gain.value=.2;lp.connect(m);lp.connect(dl);dl.connect(fb);fb.connect(dl);dl.connect(wet);wet.connect(m);m.connect(AC.destination);bus=lp}if(AC.state==='suspended')AC.resume();return AC}catch(e){return null}}
+function tone(f,st,dur,vol,type){const c=ac();if(!c)return;const t=c.currentTime+st+.01;const o=c.createOscillator(),g=c.createGain();o.type=type||'square';o.frequency.setValueAtTime(f,t);g.gain.setValueAtTime(.0001,t);g.gain.exponentialRampToValueAtTime(vol,t+.01);g.gain.exponentialRampToValueAtTime(.0001,t+dur);const lp=c.createBiquadFilter();lp.type='lowpass';lp.frequency.value=1800;o.connect(lp);lp.connect(g);g.connect(bus);o.start(t);o.stop(t+dur+.05)}
+const SFX={tap:()=>tone(880,0,.08,.03),plant:()=>{tone(523,0,.08,.035);tone(784,.05,.1,.03)},harvest:()=>{tone(659,0,.08,.035);tone(988,.06,.12,.03)},coin:()=>{tone(1319,0,.07,.025);tone(1760,.06,.14,.022)},buy:()=>[523,659,784,1047].forEach((f,i)=>tone(f,i*.07,.18,.03)),level:()=>[523,659,784,1047,1319,1568].forEach((f,i)=>tone(f,i*.09,.3,.03)),no:()=>{tone(220,0,.12,.035);tone(196,.1,.16,.03)},open:()=>{tone(587,0,.08,.03);tone(880,.06,.1,.025)},close:()=>{tone(880,0,.08,.025);tone(587,.06,.1,.022)},season:()=>[392,494,587,784,988].forEach((f,i)=>tone(f,i*.13,.5,.028,'triangle'))};
+function sfx(n){if(S.sfx)try{SFX[n]()}catch(e){}}
+const MUS={
+ title:{bpm:640,ch:[[261.6,329.6,392,493.9],[220,261.6,329.6,392],[174.6,220,261.6,329.6],[196,246.9,293.7,392]],sc:[523.3,587.3,659.3,784,880],lead:'sine',dens:.35,arp:true,pad:.012},
+ spring:{bpm:430,ch:[[261.6,329.6,392],[220,261.6,329.6],[174.6,220,261.6],[196,246.9,293.7]],sc:[523.3,587.3,659.3,784,880,1046.5],lead:'triangle',dens:.55,pad:.008},
+ rain:{bpm:560,ch:[[220,261.6,329.6],[196,246.9,293.7],[174.6,220,261.6],[164.8,207.7,246.9]],sc:[880,987.8,1046.5,1318.5,1568],lead:'sine',dens:.5,drip:true,pad:.009},
+ summer:{bpm:360,ch:[[293.7,370,440],[246.9,293.7,370],[196,246.9,293.7],[220,277.2,329.6]],sc:[587.3,659.3,740,880,987.8,1174.7],lead:'square',dens:.6,pad:.007},
+ autumn:{bpm:500,ch:[[220,261.6,329.6],[174.6,220,261.6],[196,246.9,293.7],[164.8,196,246.9]],sc:[440,493.9,523.3,659.3,784],lead:'triangle',dens:.45,pad:.009},
+ muertos:{bpm:420,ch:[[220,261.6,329.6],[146.8,174.6,220],[164.8,207.7,246.9],[220,261.6,329.6]],sc:[440,493.9,523.3,587.3,659.3,698.5,830.6,880],lead:'sawtooth',dens:.7,waltz:true,pad:.008},
+ winter:{bpm:620,ch:[[196,233.1,293.7],[155.6,196,233.1],[174.6,207.7,261.6],[146.8,174.6,220]],sc:[1046.5,1174.7,1396.9,1568,1760],lead:'sine',dens:.4,box:true,pad:.009}
+};
+let cur='title',beat=0,musT=null;
+function setMusic(k){if(cur===k)return;cur=k;beat=0}
+function musTick(){const M=MUS[cur];musT=setTimeout(musTick,M.bpm);if(!S.music||!AC||document.hidden)return;
+  const bar=M.waltz?6:8,ch=M.ch[Math.floor(beat/bar)%4];
+  if(beat%bar===0)ch.forEach((f,i)=>tone(f/2,i*.05,M.bpm*bar/1000*.95,M.pad,'triangle'));
+  if(M.waltz&&beat%3!==0)ch.slice(1).forEach(f=>tone(f,0,.18,.006,'triangle'));
+  if(M.arp){tone(ch[beat%ch.length]*2,0,.9,.007,'sine')}
+  if(Math.random()<M.dens&&(beat%2===0||M.waltz)){const f=M.sc[Math.floor(Math.random()*M.sc.length)];tone(f,0,M.box?.6:M.lead==='sawtooth'?.25:.45,M.box?.008:M.lead==='square'?.006:.009,M.lead)}
+  if(M.drip&&Math.random()<.35)tone(1800+Math.random()*900,0,.08,.006,'sine');
+  beat++}
+musTick();
+/* ===================== LÓGICA ===================== */
+let customers=[],floats=[],parts=[],tt=0,custT=3,paused=true,modalOpen=false;
+function addXP(n){S.xp+=n;let up=false;while(S.xp>=need(S.lv)){S.xp-=need(S.lv);S.lv++;up=true}if(up)setTimeout(levelUp,300);hudDirty=true}
+function levelUp(){sfx('level');const un=[];Object.entries(CROPS).forEach(([k,c])=>{if(c.lv===S.lv)un.push(c.n)});Object.values(MACH).forEach(m=>{if(m.lv===S.lv)un.push(m.big?m.n:'Taller de '+m.n.toLowerCase())});Object.values(FRUITS).forEach(f=>{if(f.lv===S.lv)un.push(f.tree)});LOTS.forEach(L=>{if(L.lv===S.lv&&L.i)un.push('Terreno '+(L.i+1)+(L.gh?' (invernadero)':''))});
+  banner('¡Nivel '+S.lv+'!',title()+(un.length?' · Nuevo: '+un.slice(0,3).join(', '):''));renderSeeds();save()}
+function canPlant(k,x,y){const C=CROPS[k],L=plotLot(x,y);if(!C)return 'Elige una semilla';if(S.lv<C.lv)return 'Se desbloquea en nivel '+C.lv;if(!(L&&L.gh&&S.lots.includes(11))&&!C.s.includes(season()))return C.n+' no crece en '+SEASN[season()].toLowerCase()+(season()==='winter'?'. Usa el invernadero':'');if(S.coins<C.cost)return 'Te faltan monedas';return ''}
+function tileAction(x,y,dry){ // devuelve tipo de acción posible
+  const k=x+','+y,L=plotLot(x,y);
+  if(L&&S.lots.includes(L.i)){const p=S.plots[k];if(!p)return canPlant(S.sel,x,y)?null:'plant';if(Date.now()>=p.done)return 'harvest';return 'grow'}
+  return null}
+function plant(x,y){const C=CROPS[S.sel],err=canPlant(S.sel,x,y);if(err){toast(err);sfx('no');return false}
+  S.coins-=C.cost;S.plots[x+','+y]={c:S.sel,start:Date.now(),done:Date.now()+C.t*1000*speedMul()*(season()==='rain'?.75:1)};sfx('plant');puff(x*T+8,y*T+10,'#9C5B2E');hudDirty=true;if(!S.intro2){S.intro2=1;tip('¡Bien! Toca o arrastra sobre la tierra para plantar varias a la vez')}return true}
+function harvest(x,y){const k=x+','+y,p=S.plots[k];if(stock()>=cap()){toast('Tu granero está lleno. Vende en el mercado o amplíalo');sfx('no');return false}
+  delete S.plots[k];S.inv[p.c]=(S.inv[p.c]||0)+1;S.st.harvest++;addXP(CROPS[p.c].xp);sfx('harvest');floatT(x*T+8,y*T+2,'+1','#FFF4B0');puff(x*T+8,y*T+8,'#7CCB4E');hudDirty=true;return true}
+function treeTap(i){const t=S.trees[i];if(!t)return openTreeBuy(i);if(Date.now()<t.done){toast(FRUITS[t.k].tree+' · fruta en '+secs(t.done));return}
+  const F=FRUITS[t.k];if(stock()+F.y>cap()){toast('Tu granero está lleno');sfx('no');return}
+  S.inv[t.k]=(S.inv[t.k]||0)+F.y;t.done=Date.now()+F.t*1000*speedMul();addXP(4);sfx('harvest');const [sx,sy]=SPOTS[i];floatT(sx*T+16,sy*T,'+'+F.y,'#FFF4B0');save();hudDirty=true}
+function secs(ts){const s=Math.max(0,Math.ceil((ts-Date.now())/1000));return s>=60?Math.floor(s/60)+' min '+(s%60)+' s':s+' s'}
+function puff(x,y,col){for(let i=0;i<6;i++)parts.push({x,y,vx:(Math.random()-.5)*30,vy:-Math.random()*30,life:.4+Math.random()*.3,col,g:60})}
+function floatT(x,y,t,col){floats.push({x,y,t,col,life:1.2})}
+/* clientes */
+const SHIRTS=['#3F7AD0','#E06A48','#7A3A8A','#3F9A4A','#F7C82E','#4CB4B0','#C0402E','#F08AB4'],HAIRS=['#2A1F1A','#4A3021','#B07A44','#E2BE7A','#C4502F','#8E8E93'],SKINS=['#FBE2CD','#F3CBA8','#E2AE86','#C98E64','#A46B45'];
+const pick=a=>a[Math.floor(Math.random()*a.length)];
+function forSale(){return Object.keys(S.inv).filter(k=>S.inv[k]>0&&!S.sellOff[k])}
+function spawnCustomer(){if(customers.length>=6)return;const slot=[0,1,2,3].find(s=>!customers.some(c=>c.slot===s));if(slot===undefined)return;
+  customers.push({x:900,y:170+Math.random()*6,tx:596+slot*14,ty:146+(slot%2)*3,slot,st:'in',sh:pick(SHIRTS),hr:pick(HAIRS),sk:pick(SKINS),wait:1.2,ph:Math.random()*6})}
+function custBuy(c){const fs=forSale();if(!fs.length){c.bubble='?';c.st='out';return}
+  let n=1+Math.floor(Math.random()*3),earn=0,got=0;
+  for(let i=0;i<n;i++){const ks=forSale();if(!ks.length)break;const k=pick(ks);S.inv[k]--;earn+=val(k);got++;if(!S.inv[k])delete S.inv[k]}
+  S.coins+=earn;S.st.sold+=got;S.st.earned+=earn;addXP(got);floatT(c.x,c.y-30,'+'+earn,'#FFE07A');sfx('coin');c.bubble='♥';c.st='out';hudDirty=true;salePop(earn);if(!S.firstSale){S.firstSale=1;banner('¡Tu primera venta!','Los clientes compran solos en tu puesto')}}
+function salePop(n){const b=$('mktBtn');if(!b||scene!=='farm')return;const d=document.createElement('div');d.className='pop';d.innerHTML=COIN+'+'+n;const r=b.getBoundingClientRect();d.style.left=(r.left+r.width/2)+'px';d.style.top=(r.top-6)+'px';document.body.appendChild(d);setTimeout(()=>d.remove(),1400)}
+function update(dt){
+  tt+=dt;if(paused)return;
+  S.ptime+=dt;
+  const si=Math.floor(dayN()/SDAYS);if(si!==S.lastSeason){S.lastSeason=si;onSeason()}
+  // clientes
+  const night=tod()>.8||tod()<.1;
+  custT-=dt;if(custT<=0){custT=(4.5/(1+.4*(S.up.sign||0)))*(night?2.2:1)*(.6+Math.random()*.8);if(forSale().length||Math.random()<.3)spawnCustomer()}
+  for(let i=customers.length-1;i>=0;i--){const c=customers[i];c.ph+=dt*8;
+    if(c.st==='in'){const tx=c.y>150?c.tx:c.tx,dx=c.tx-c.x;if(Math.abs(dx)>1){c.x+=Math.sign(dx)*Math.min(Math.abs(dx),55*dt);c.dir=dx<0?'left':'right'}else{c.dir='up';const dy=c.ty-c.y;if(Math.abs(dy)>1)c.y+=Math.sign(dy)*Math.min(Math.abs(dy),30*dt);else{c.wait-=dt;if(c.wait<=0)custBuy(c)}}}
+    else{c.bt=(c.bt||0)+dt;if(c.bt>.8){if(c.y<170){c.y+=30*dt;c.dir='down'}else{c.x+=55*dt;c.dir='right'}}if(c.x>920)customers.splice(i,1)}}
+  for(let i=floats.length-1;i>=0;i--){const f=floats[i];f.life-=dt;f.y-=14*dt;if(f.life<=0)floats.splice(i,1)}
+  for(let i=parts.length-1;i>=0;i--){const p=parts[i];p.life-=dt;p.vy+=p.g*dt;p.x+=p.vx*dt;p.y+=p.vy*dt;if(p.life<=0)parts.splice(i,1)}
+  weather(dt);if(scene==='town')townUpdate(dt);
+  saveT+=dt;if(saveT>5){saveT=0;save()}
+}
+let saveT=0;
+function onSeason(){const s=season();cache={};buildWorld();renderSeeds();sfx('season');
+  const msg={spring:'¡Llegó la primavera!',rain:'¡Empezó la temporada de lluvias!',summer:'¡Ya llegó el verano!',autumn:'¡Llegó el otoño!',muertos:'¡Llegó el Día de Muertos!',winter:'¡Ya llegó el invierno!'}[s];
+  const sub={spring:'Los cerezos florecen · lechuga, zanahoria y fresa',rain:'Todo crece más rápido con la lluvia',summer:'Tomate, maíz y girasol',autumn:'Calabaza, maíz y zanahoria',muertos:'Siembra cempasúchil · se vende muy bien',winter:'Solo crece en el invernadero'}[s];
+  setMusic(s);
+  banner(msg,sub);notify(msg,sub);save()}
+function notify(t,b){try{if(window.__swReg&&window.Notification&&Notification.permission==='granted')window.__swReg.showNotification('MyGarden · '+t,{body:b,icon:'icon-192.png',tag:'season'})}catch(e){}}
+/* clima */
+let wx=[];
+function weather(dt){const s=season(),pw=cv.width/SC,ph=cv.height/SC;const want=s==='winter'?70:s==='rain'?90:s==='autumn'||s==='muertos'?26:s==='spring'?18:10;
+  while(wx.length<want)wx.push({x:cam.x+Math.random()*pw,y:cam.y+Math.random()*ph,ph:Math.random()*6,s:Math.random()});
+  if(wx.length>want)wx.length=want;
+  wx.forEach(w=>{w.ph+=dt;if(s==='rain'){w.y+=(160+w.s*60)*dt;w.x-=40*dt}else if(s==='winter'){w.y+=(14+w.s*10)*dt;w.x+=Math.sin(w.ph)*6*dt}else if(s==='summer'){w.x+=Math.sin(w.ph*.7)*8*dt;w.y+=Math.cos(w.ph*.5)*5*dt}else{w.y+=(8+w.s*6)*dt;w.x+=(10+Math.sin(w.ph)*8)*dt}
+    if(w.y>cam.y+ph+4||w.x>cam.x+pw+4||w.x<cam.x-4||w.y<cam.y-6){w.x=cam.x+Math.random()*pw;w.y=cam.y-4;if(s==='summer')w.y=cam.y+Math.random()*ph}})}
+/* ===================== DIBUJAR ===================== */
+let hl=null;
+function render(){
+  const pw=pcan.width,ph=pcan.height,ix=Math.floor(cam.x),iy=Math.floor(cam.y),fx=cam.x-ix,fy=cam.y-iy;
+  const g=pctx;g.imageSmoothingEnabled=false;g.setTransform(1,0,0,1,0,0);g.fillStyle='#2E4A2A';g.fillRect(0,0,pw,ph);
+  g.drawImage(scene==='farm'?world:town,ix,iy,pw,ph,0,0,pw,ph);
+  g.setTransform(1,0,0,1,-ix,-iy);PX.set(g,pw,ph);
+  const now=Date.now(),x0=Math.floor(ix/T)-1,x1=Math.ceil((ix+pw)/T)+1,y0=Math.floor(iy/T)-1,y1=Math.ceil((iy+ph)/T)+3;
+  if(scene==='farm'){
+  // agua animada
+  for(let y=Math.max(0,y0);y<Math.min(MH,y1);y++)for(let x=Math.max(0,x0);x<Math.min(MW,x1);x++)if(G[id(x,y)]===3&&season()!=='winter'){const h=PX.h2(x,y);if(((tt*1.5+h%7)|0)%5===0){g.fillStyle='rgba(220,245,255,.8)';g.fillRect(x*T+3+(h%8),y*T+4+((h>>4)%8),3,1)}}
+  // cultivos
+  for(const k in S.plots){const p=S.plots[k],[x,y]=k.split(',').map(Number);if(x<x0||x>x1||y<y0||y>y1)continue;
+    const C=CROPS[p.c],f=Math.min(1,(now-p.start)/(p.done-p.start)),st=f>=1?3:f>.6?2:f>.25?1:0;
+    const ready=st===3,bob=ready&&((tt*3+x+y)|0)%4===0?-1:0;
+    g.drawImage(cropSpr(p.c,st),x*T,y*T+bob);
+    if(ready&&((tt*2+x*3+y)|0)%6===0){g.fillStyle='#FFF4B0';g.fillRect(x*T+2,y*T+2,1,3);g.fillRect(x*T+1,y*T+3,3,1)}}
+  // invernadero
+  if(S.lots.includes(11)){const L=LOTS[11];PX.ghFrame(g,L.x*T,L.y*T,L.w*T,L.h*T)}
+  // resaltado
+  if(hl){g.fillStyle='rgba(255,244,180,.35)';g.fillRect(hl[0]*T,hl[1]*T,T,T)}
+  // talleres
+  PADS.forEach(pd=>{const m=S.mach[pd.k];if(!m)return;const bx=pd.x*T,by=pd.y*T-10;g.drawImage(machSpr(pd.k),bx,by);
+    if(m.job){if(now<m.job.done){if(((tt*4)|0)%3===0){g.fillStyle='rgba(240,240,240,.7)';const s=(tt*8)%10;g.fillRect(bx+37-s*.2,by-2-s,3,3)}
+        const f=(now-m.job.start)/(m.job.done-m.job.start);g.fillStyle='#3A2216';g.fillRect(bx+8,by+50,32,4);g.fillStyle='#5DBA5E';g.fillRect(bx+9,by+51,Math.round(30*f),2)}
+      else{const b=((tt*3)|0)%2;g.fillStyle='#3A2216';g.fillRect(bx+14,by-14+b,20,18);g.fillStyle='#FFF4D6';g.fillRect(bx+15,by-13+b,18,16);g.drawImage(prodSpr(m.job.out),bx+16,by-13+b)}}});
+  BPADS.forEach(bp=>{const m=S.mach[bp.k];if(!m||!m.job)return;const bx=bp.x*T+16,by=bp.y*T-4;if(now<m.job.done){const f=(now-m.job.start)/(m.job.done-m.job.start);g.fillStyle='#3A2216';g.fillRect(bx,by+86,48,5);g.fillStyle='#5DBA5E';g.fillRect(bx+1,by+87,Math.round(46*f),3)}else{const bb=((tt*3)|0)%2;g.fillStyle='#3A2216';g.fillRect(bx+14,by-8+bb,20,18);g.fillStyle='#FFF4D6';g.fillRect(bx+15,by-7+bb,18,16);g.drawImage(prodSpr(m.job.out),bx+16,by-7+bb)}});
+  // árboles frutales
+  SPOTS.forEach((s,i)=>{const t=S.trees[i];if(!t)return;const ready=now>=t.done;g.drawImage(treeSpr(t.k,ready),s[0]*T-8,s[1]*T-20)});
+  // clientes
+  customers.slice().sort((a,b)=>a.y-b.y).forEach(c=>{const step=c.st!=='in'||Math.abs(c.tx-c.x)>1?((c.ph|0)%2):0;PX.npc(Math.round(c.x),Math.round(c.y)-step,c.sh,c.hr,c.sk,c.dir||'left');
+    if(c.bubble){const bx=Math.round(c.x)-4,by=Math.round(c.y)-36;g.fillStyle='#3A2216';g.fillRect(bx-1,by-1,11,10);g.fillStyle='#FFF4D6';g.fillRect(bx,by,9,8);if(c.bubble==='♥'){g.fillStyle='#E8324A';g.fillRect(bx+2,by+2,2,2);g.fillRect(bx+5,by+2,2,2);g.fillRect(bx+2,by+3,5,2);g.fillRect(bx+3,by+5,3,1);g.fillRect(bx+4,by+6,1,1)}else PX.text(g,'?',bx+3,by+2,'#3A2216')}});
+  // decoración de temporada
+  {const s=season();if(s==='muertos'){PX.papel(g,572,60,92,tt);PX.papel(g,36,64,76,tt+1);[[40,118],[48,120],[104,118],[96,120]].forEach(q=>PX.candle(g,q[0],q[1],tt))}
+  if(s==='winter'){PX.lights(g,28,68,88,tt);PX.lights(g,572,72,92,tt+1);PX.lights(g,128,68,64,tt+2)}}
+  }else townDyn(g,ix,iy,pw,ph);
+  // partículas
+  parts.forEach(p=>{g.fillStyle=p.col;g.fillRect(Math.round(p.x),Math.round(p.y),2,2)});
+  // clima
+  const s=season();if(s==='rain'){g.fillStyle='rgba(30,50,70,.12)';g.fillRect(ix,iy,pw,ph)}
+  wx.forEach(w=>{const x=Math.round(w.x),y=Math.round(w.y);if(s==='rain'){g.fillStyle='rgba(190,225,245,.75)';g.fillRect(x,y,1,4);g.fillRect(x-1,y+4,1,2);if(w.s>.92){g.fillStyle='rgba(220,240,255,.6)';g.fillRect(x-2,y+10,5,1)}}else if(s==='muertos'){g.fillStyle=w.s>.5?'#F28A1E':'#FFC24A';g.fillRect(x,y,2,2)}else if(s==='winter'){g.fillStyle='#FFFFFF';g.fillRect(x,y,w.s>.6?2:1,w.s>.6?2:1)}else if(s==='autumn'){g.fillStyle=w.s>.5?'#E0843A':'#B9562A';g.fillRect(x,y,2,1);g.fillRect(x+1,y+1,1,1)}else if(s==='spring'){g.fillStyle=w.s>.5?'#FFD0E0':'#F0A0C0';g.fillRect(x,y,2,1)}else{if(((w.ph*3)|0)%3){g.fillStyle='rgba(255,250,200,.8)';g.fillRect(x,y,1,1)}}});
+  // textos flotantes
+  floats.forEach(f=>{const t=f.t,w=PX.textW(t);if(f.t[0]==='+'&&f.col==='#FFE07A'){g.drawImage(coinC,Math.round(f.x-w/2-9),Math.round(f.y-1))}PX.text(g,t,Math.round(f.x-w/2),Math.round(f.y),f.col,'#3A2216')});
+  // luz del día
+  g.setTransform(1,0,0,1,0,0);const td=tod();let a=0,col='20,30,70';if(td>.75)a=Math.min(.45,(td-.75)/.08*.45);else if(td<.1)a=.45*(1-td/.1);if(td>.62&&td<.78){g.fillStyle='rgba(255,140,60,'+(Math.sin((td-.62)/.16*Math.PI)*.15)+')';g.fillRect(0,0,pw,ph)}
+  if(a>0){g.fillStyle='rgba('+col+','+a+')';g.fillRect(0,0,pw,ph);
+    if(scene==='town'){g.globalCompositeOperation='lighter';for(let i=0;i<=6;i++){const lx=(1+i*6)*16+6-ix,ly=7*16-18-iy;g.fillStyle='rgba(255,200,100,'+a*.7+')';g.fillRect(lx-8,ly-6,19,16);g.fillStyle='rgba(255,200,100,'+a*.35+')';g.fillRect(lx-14,ly+10,31,30)}BIZ.forEach((b,i)=>{if(S.mach[b.k]){g.fillStyle='rgba(255,190,90,'+a*.7+')';g.fillRect(bizX(i)+9-ix,bizY+71-iy,28,20);g.fillRect(bizX(i)+10-ix,bizY+43-iy,12,10);g.fillRect(bizX(i)+56-ix,bizY+43-iy,12,10)}});g.globalCompositeOperation='source-over'}
+    // ventanas encendidas
+    if(scene==='farm'){g.globalCompositeOperation='lighter';[[32+10,36+44,16,14],[32+56,36+44,16,14]].forEach(w=>{g.fillStyle='rgba(255,190,90,'+a*.8+')';g.fillRect(w[0]-ix,w[1]-iy,w[2],w[3])});g.globalCompositeOperation='source-over'}}
+  ctx.imageSmoothingEnabled=false;ctx.drawImage(pcan,-Math.round(fx*SC),-Math.round(fy*SC),pw*SC,ph*SC);
+}
+let walkers=[],walkT=0;
+function townDyn(g,ix,iy,pw,ph){const s=season();
+  BIZ.forEach((b,i)=>{const o=S.mach[b.k];if(!o)return;const x=bizX(i),y=bizY;if(o.job&&Date.now()>=o.job.done){const bb=((tt*3)|0)%2;g.fillStyle='#3A2216';g.fillRect(x+30,y-2+bb,20,18);g.fillStyle='#FFF4D6';g.fillRect(x+31,y-1+bb,18,16);g.drawImage(prodSpr(o.job.out),x+32,y-1+bb)}
+    if(s==='winter')PX.lights(g,x+2,y+20,76,tt+i);if(s==='muertos'){PX.candle(g,x+66,y+92,tt+i)}});
+  if(s==='muertos'){for(let i=0;i<6;i++)PX.papel(g,bizX(i)-4,7*16-30,88,tt+i)}
+  walkers.slice().sort((a,b)=>a.y-b.y).forEach(w=>{const step=((w.ph|0)%2);PX.npc(Math.round(w.x),Math.round(w.y)-step,w.sh,w.hr,w.sk,w.dir)});
+}
+function townUpdate(dt){walkT-=dt;if(walkT<=0&&walkers.length<9){walkT=1.2+Math.random()*2;const left=Math.random()<.5,row=Math.random()<.5?7*16+12:10*16+12;walkers.push({x:left?-10:TWW*T+10,y:row,vx:(left?1:-1)*(22+Math.random()*10),sh:pick(SHIRTS),hr:pick(HAIRS),sk:pick(SKINS),ph:0,dir:left?'right':'left',target:null})}
+  for(let i=walkers.length-1;i>=0;i--){const w=walkers[i];w.ph+=dt*7;
+    if(w.target!==null){const dx=w.target-w.x;if(Math.abs(dx)>1){w.x+=Math.sign(dx)*30*dt;w.dir=dx>0?'right':'left'}else{w.dir='up';w.y-=26*dt;if(w.y<7*16+2){walkers.splice(i,1);continue}}}
+    else{w.x+=w.vx*dt;if(w.y<8*16&&Math.random()<dt*.3){const own=BIZ.map((b,j)=>S.mach[b.k]?j:-1).filter(j=>j>=0);if(own.length){const j=pick(own),door=bizX(j)+55;if(Math.abs(door-w.x)<60)w.target=door}}}
+    if(w.x<-20||w.x>TWW*T+20)walkers.splice(i,1)}}
+function setScene(sn){if(scene===sn)return;camSave[scene]={x:cam.x,y:cam.y};scene=sn;if(sn==='town'&&!town)buildTown();resize();if(camSave[sn]){cam.x=camSave[sn].x;cam.y=camSave[sn].y}else if(sn==='town'){cam.x=0;cam.y=0}else centerStart();clampCam();wx=[];renderSeeds();hudDirty=true;sfx('open');
+  $('mktBtn').hidden=sn!=='farm';$('sceneBtn').textContent=sn==='farm'?'Pueblo':'Granja';
+  if(sn==='town'&&!S.townIntro){S.townIntro=1;setTimeout(()=>modal('El pueblo','',`<p class="t">Aquí se ven tus negocios con la gente del pueblo entrando a comprar.</p><p class="t">Toca un negocio tuyo para preparar productos, o un terreno vacío para abrir uno nuevo.</p><div style="display:flex;justify-content:flex-end"><button class="btn g" data-a="close">¡Va!</button></div>`),300)}}
+function openBizBuy(i){const b=BIZ[i];modal(b.n,'',`<p class="t">Convierte tus productos en: ${b.rec.map(r=>'<b>'+r.n.toLowerCase()+'</b> ('+Object.entries(r.in).map(([k,n])=>n+' '+NAME(k).toLowerCase()).join(' + ')+')').join(', ')}.</p>${S.lv<b.lv?`<p class="t"><b>Se desbloquea en nivel ${b.lv}.</b></p>`:''}<div style="display:flex;justify-content:flex-end;gap:8px;align-items:center"><span class="price" style="font-size:20px">${COIN} ${fmt(b.price)}</span><button class="btn g" data-a="buymach" data-k="${b.k}" ${S.coins<b.price||S.lv<b.lv?'disabled':''}>Abrir negocio</button></div>`)}
+function openBiz(i){const b=BIZ[i];if(S.mach[b.k])openMach(b.k);else openBizBuy(i)}
+function townTap(wx,wy){for(let i=0;i<BIZ.length;i++){if(inR(wx,wy,bizX(i),bizY,80,96)){sfx('open');openBiz(i);return}}
+  if(inR(wx,wy,20*16-32,11*16,64,66)){sfx('tap');toast(pick(['Hoy toca la banda en el quiosco','¡Qué bonito está el pueblo!','Tu nombre ya se escucha en todo el pueblo']));return}
+  for(const w of walkers)if(inR(wx,wy,w.x-6,w.y-26,12,28)){sfx('tap');toast(pick(['¡Me encanta tu cafetería!','Voy por unas flores','¿Ya probaste los tacos?','¡Buenas tardes!']));return}}
+/* ===================== HUD ===================== */
+let hudDirty=true,hcache={};
+function setH(el,k,h){if(hcache[k]!==h){hcache[k]=h;el.innerHTML=h}}
+function hud(){
+  setH($('money'),'m',COIN.replace('alt=""','alt="" style="width:26px;height:26px;image-rendering:pixelated"')+'<span>'+fmt(S.coins)+'</span>');
+  const lv=$('lvl');const key=S.lv+'|'+S.xp;if(hcache.l!==key){hcache.l=key;lv.innerHTML='';lv.appendChild(sprout(titleI()));const d=document.createElement('div');d.innerHTML='Nv '+S.lv+' · '+title()+'<div class="bar"><i style="width:'+Math.round(S.xp/need(S.lv)*100)+'%"></i></div>';lv.appendChild(d)}
+  const s=season(),dd=dayN()%SDAYS+1;setH($('season'),'s',seasonIcon(s)+SEASN[s]+' · Día '+dd+' de '+SDAYS);
+  setH($('barnTag'),'b',iconImg('barn',24)+' '+stock()+'/'+cap());
+}
+function seasonIcon(s){const c=document.createElement('canvas');c.width=c.height=10;const g=c.getContext('2d');PX.set(g,10,10);
+  if(s==='spring'){[[5,2],[2,5],[8,5],[5,8]].forEach(q=>PX.r(q[0]-1,q[1]-1,3,3,'#F08AB4'));PX.r(4,4,3,3,'#F7D24A')}
+  if(s==='summer'){PX.disc(5,5,3,'#F7C82E');[[5,0],[5,9],[0,5],[9,5]].forEach(q=>PX.p(q[0],q[1],'#F7C82E'))}
+  if(s==='autumn'){PX.ell(5,5,3,4,'#E0843A');PX.r(5,1,1,8,'#8A3A1E')}
+  if(s==='rain'){PX.r(4,1,2,2,'#5AB0E8');PX.r(3,3,4,3,'#5AB0E8');PX.r(2,5,6,3,'#5AB0E8');PX.r(3,8,4,1,'#5AB0E8');PX.p(4,4,'#C8EAF6')}
+  if(s==='muertos'){[[5,1],[2,4],[8,4],[3,8],[7,8],[5,5]].forEach(q=>PX.r(q[0]-1,q[1]-1,3,3,'#F28A1E'));PX.r(4,4,2,2,'#FFC24A')}
+  if(s==='winter'){PX.r(4,0,2,10,'#7EC6E8');PX.r(0,4,10,2,'#7EC6E8');PX.p(1,1,'#7EC6E8');PX.p(8,8,'#7EC6E8');PX.p(8,1,'#7EC6E8');PX.p(1,8,'#7EC6E8')}
+  return '<img src="'+c.toDataURL()+'" style="width:22px;height:22px;image-rendering:pixelated" alt="">'}
+const fmt=n=>n>=10000?(n/1000).toFixed(1)+'k':n.toLocaleString('es-MX');
+function renderSeeds(){const b=$('bot');b.innerHTML='';if(scene==='town'){const own=BIZ.filter(x=>S.mach[x.k]).length;b.innerHTML='<div style="padding:6px 14px;font-weight:700;font-size:17px;white-space:nowrap">Tus negocios en el pueblo · '+own+' de '+BIZ.length+'</div>';return}const s=season(),gh=S.lots.includes(11);
+  Object.entries(CROPS).forEach(([k,C])=>{const d=document.createElement('button');d.className='seed'+(S.sel===k?' on':'')+(!C.s.includes(s)?' out':'');d.dataset.a='seed';d.dataset.k=k;
+    d.appendChild(canv(cropSpr(k,3),36));const lb=document.createElement('b');lb.innerHTML=COIN+C.cost;d.appendChild(lb);
+    if(S.lv<C.lv){const l=document.createElement('span');l.className='lk';l.textContent='Nv '+C.lv;d.appendChild(l)}b.appendChild(d)});}
+let toastT;function toast(m){const t=$('toast');t.textContent=m;t.classList.add('show');clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),2000)}
+let banT;function banner(t,sub){const b=$('banner');b.innerHTML=t+(sub?'<small>'+sub+'</small>':'');b.classList.add('show');clearTimeout(banT);banT=setTimeout(()=>b.classList.remove('show'),2600)}
+let tipT;function tip(m){const t=$('tip');t.textContent=m;t.hidden=false;clearTimeout(tipT);tipT=setTimeout(()=>t.hidden=true,6000)}
+
+/* ===================== VENTANAS ===================== */
+function modal(title,ic,body,tabs){const m=$('modal');m.innerHTML='<div class="win fr"><div class="wh">'+(ic||'')+'<h2>'+title+'</h2><button class="btn sq" data-a="close" style="width:44px;height:44px;font-size:20px">X</button></div>'+(tabs||'')+'<div class="wb">'+body+'</div></div>';m.hidden=false;modalOpen=true;paused=true}
+function closeModal(){$('modal').hidden=true;$('modal').innerHTML='';modalOpen=false;paused=false;hudDirty=true;save()}
+const imgOf=k=>'<img src="'+sprURL(itemSpr(k))+'" width="40" height="40" style="image-rendering:pixelated" alt="">';
+let mTab='sell';
+function openMarket(tab){mTab=tab||mTab;const ks=Object.keys(S.inv).filter(k=>S.inv[k]>0);let body='';
+  if(mTab==='sell'){body=`<p class="t">Tus clientes compran solos lo que pongas a la venta. Lo de temporada pasada vale más.</p>`+(ks.length?ks.map(k=>`<div class="row">${imgOf(k)}<div class="n">${NAME(k)} ×${S.inv[k]}<small class="price">${COIN} ${val(k)} c/u${CROPS[k]&&!CROPS[k].s.includes(season())?' · ¡fuera de temporada!':''}</small></div><button class="btn tog ${S.sellOff[k]?'':'g'}" data-a="togsell" data-k="${k}">${S.sellOff[k]?'Guardado':'A la venta'}</button></div>`).join(''):'<p class="t">Tu granero está vacío. Cosecha cultivos para venderlos.</p>')}
+  else{body=Object.entries(UPG).filter(([k])=>k!=='barn').map(([k,u])=>{const lv=S.up[k]||0,max=lv>=u.p.length,p=u.p[lv];return `<div class="row"><div class="n">${u.n} ${lv?'· Nv '+lv:''}<small>${u.d}</small></div>${max?'<b>Máximo</b>':`<span class="price">${COIN} ${p}</span><button class="btn g" data-a="upg" data-k="${k}" ${S.coins<p?'disabled':''}>Mejorar</button>`}</div>`}).join('')}
+  modal('Mercado','',body,`<div class="tabs"><button class="${mTab==='sell'?'on':''}" data-a="market" data-t="sell">Productos</button><button class="${mTab==='up'?'on':''}" data-a="market" data-t="up">Mejoras</button></div>`)}
+function openBarn(){const ks=Object.keys(S.inv).filter(k=>S.inv[k]>0);const lv=S.up.barn||0,u=UPG.barn,p=u.p[lv];
+  modal('Granero','',`<div class="row"><div class="n">Espacio ${stock()} / ${cap()}<div class="bar2"><i style="width:${Math.round(stock()/cap()*100)}%"></i></div></div>${lv>=u.p.length?'<b>Máximo</b>':`<span class="price">${COIN} ${p}</span><button class="btn g" data-a="upg" data-k="barn" ${S.coins<p?'disabled':''}>Ampliar +50</button>`}</div>
+   <div class="sec">Guardado</div>${ks.length?'<div class="grid">'+ks.map(k=>`<div class="row">${imgOf(k)}<div class="n">${NAME(k)}<small>×${S.inv[k]}</small></div></div>`).join('')+'</div>':'<p class="t">Vacío por ahora.</p>'}`)}
+let bTab='mach';
+function openBuild(tab){bTab=tab||bTab;let body='';
+  if(bTab==='biz')body='<p class="t">Tus negocios convierten tus productos en cosas que valen mucho más. Están en tu granja, a la derecha, y también aparecen en el pueblo.</p>'+BIZ.map((b,i)=>{const has=S.mach[b.k];return `<div class="row"><div class="n">${b.n}<small>${b.rec.map(r=>r.n).join(' · ')}</small></div>${has?'<b>Abierto</b>':S.lv<b.lv?'<b>Nv '+b.lv+'</b>':`<span class="price">${COIN} ${fmt(b.price)}</span><button class="btn g" data-a="buymach" data-k="${b.k}" ${S.coins<b.price?'disabled':''}>Abrir</button>`}</div>`}).join('');
+  if(bTab==='mach')body=PADS.map(pd=>{const M=MACH[pd.k],has=S.mach[pd.k];return `<div class="row"><img src="${sprURL(machSpr(pd.k))}" width="44" height="48" style="image-rendering:pixelated" alt=""><div class="n">Taller de ${M.n.toLowerCase()}<small>${M.rec.map(r=>Object.entries(r.in).map(([k,n])=>n+' '+NAME(k).toLowerCase()).join(' + ')+' → '+r.n.toLowerCase()).join(' · ')}</small></div>${has?'<b>Construido</b>':S.lv<M.lv?'<b>Nv '+M.lv+'</b>':`<span class="price">${COIN} ${M.price}</span><button class="btn g" data-a="buymach" data-k="${pd.k}" ${S.coins<M.price?'disabled':''}>Construir</button>`}</div>`}).join('');
+  if(bTab==='trees'){const free=SPOTS.findIndex((s,i)=>!S.trees[i]);body=`<p class="t">Los árboles dan fruta una y otra vez, sin volver a plantar. ${free<0?'Ya no tienes espacio libre en el huerto.':''}</p>`+Object.entries(FRUITS).map(([k,F])=>`<div class="row"><img src="${sprURL(itemSpr(k))}" width="40" height="40" style="image-rendering:pixelated" alt=""><div class="n">${F.tree}<small>${F.y} ${F.n.toLowerCase()}s cada ${Math.round(F.t/60*10)/10} min · se venden en ${F.sell}</small></div>${S.lv<F.lv?'<b>Nv '+F.lv+'</b>':`<span class="price">${COIN} ${F.price}</span><button class="btn g" data-a="buytree" data-k="${k}" ${S.coins<F.price||free<0?'disabled':''}>Plantar</button>`}</div>`).join('')}
+  if(bTab==='land')body='<p class="t">También puedes tocar los letreros en el mapa.</p>'+LOTS.filter(L=>L.i).map(L=>{const own=S.lots.includes(L.i);return `<div class="row"><div class="n">Terreno ${L.i+1}${L.gh?' · Invernadero':''}<small>${L.gh?'Cultiva cualquier cosa en cualquier temporada':'24 parcelas más'}</small></div>${own?'<b>Tuyo</b>':S.lv<L.lv?'<b>Nv '+L.lv+'</b>':`<span class="price">${COIN} ${L.price}</span><button class="btn g" data-a="buylot" data-k="${L.i}" ${S.coins<L.price?'disabled':''}>Comprar</button>`}</div>`}).join('');
+  if(bTab==='farm')body=['sprinkler'].map(k=>{const u=UPG[k],lv=S.up[k]||0,max=lv>=u.p.length,p=u.p[lv];return `<div class="row"><div class="n">${u.n} ${lv?'· Nv '+lv:''}<small>${u.d}</small></div>${max?'<b>Máximo</b>':`<span class="price">${COIN} ${p}</span><button class="btn g" data-a="upg" data-k="${k}" ${S.coins<p?'disabled':''}>Mejorar</button>`}</div>`}).join('');
+  modal('Construir','',body,`<div class="tabs">${[['mach','Talleres'],['biz','Negocios'],['trees','Árboles'],['land','Terrenos'],['farm','Granja']].map(t=>`<button class="${bTab===t[0]?'on':''}" data-a="build" data-t="${t[0]}">${t[1]}</button>`).join('')}</div>`)}
+function openMach(k){const M=MACH[k],m=S.mach[k],now=Date.now();
+  if(m.job&&now>=m.job.done){if(stock()>=cap()){toast('Tu granero está lleno');sfx('no');return}S.inv[m.job.out]=(S.inv[m.job.out]||0)+1;addXP(m.job.xp);sfx('harvest');const po=padOf(k);floatT(po.x,po.y,'+1','#FFF4B0');m.job=null;save();hudDirty=true;return}
+  const body=(m.job?`<div class="row">${imgOf(m.job.out)}<div class="n">Preparando ${NAME(m.job.out).toLowerCase()}<small>Listo en ${secs(m.job.done)}</small><div class="bar2"><i style="width:${Math.round((now-m.job.start)/(m.job.done-m.job.start)*100)}%"></i></div></div></div>`:'')+
+    M.rec.map((r,i)=>{const ok=Object.entries(r.in).every(([k2,n])=>(S.inv[k2]||0)>=n);return `<div class="row">${imgOf(r.out)}<div class="n">${r.n}<small>${Object.entries(r.in).map(([k2,n])=>`${S.inv[k2]||0}/${n} ${NAME(k2).toLowerCase()}`).join(' · ')} · ${r.t} s · vale ${r.sell}</small></div><button class="btn g" data-a="make" data-k="${k}" data-i="${i}" ${!ok||m.job?'disabled':''}>Hacer</button></div>`}).join('');
+  modal(M.big?M.n:'Taller de '+M.n.toLowerCase(),'',body)}
+function openTreeBuy(i){bTab='trees';openBuild('trees')}
+function openLot(i){const L=LOTS[i];if(S.lv<L.lv){toast('Este terreno se desbloquea en nivel '+L.lv);sfx('no');return}
+  modal('Terreno '+(i+1),'',`<p class="t">${L.gh?'Aquí construirás tu <b>invernadero</b>: cultiva cualquier cosa, incluso en invierno.':'Limpia la maleza y obtén 24 parcelas más para cultivar.'}</p><div style="display:flex;justify-content:flex-end;gap:8px;align-items:center"><span class="price" style="font-size:20px">${COIN} ${L.price}</span><button class="btn g" data-a="buylot" data-k="${i}" ${S.coins<L.price?'disabled':''}>Comprar</button></div>`)}
+function genOrder(){const pool=[];Object.entries(CROPS).forEach(([k,C])=>{if(S.lv>=C.lv&&(C.s.includes(season())||S.lots.includes(11)))pool.push(k)});Object.values(S.trees).forEach(t=>pool.push(t.k));Object.keys(S.mach).forEach(m=>MACH[m].rec.forEach(r=>{if(Object.keys(r.in).every(k=>pool.includes(k)))pool.push(r.out)}));
+  const u=[...new Set(pool)];const n=1+Math.floor(Math.random()*Math.min(3,u.length));const items={};for(let i=0;i<n;i++){const k=pick(u);items[k]=(items[k]||0)+(PROD[k]?1+Math.floor(Math.random()*2):2+Math.floor(Math.random()*5))}
+  let v=0;for(const k in items)v+=items[k]*val(k);return{items,reward:Math.round(v*1.6),xp:Math.round(v/8)+3,who:pick(['Doña Lupe','Don Chuy','La señora Rosa','Beto el chef','La maestra Ana','Don Memo','Sofi de la panadería'])}}
+function openOrders(){while(S.orders.length<3)S.orders.push(genOrder());
+  modal('Pedidos especiales','',`<p class="t">Los vecinos pagan extra por pedidos completos.</p>`+S.orders.map((o,i)=>{const ok=Object.entries(o.items).every(([k,n])=>(S.inv[k]||0)>=n);return `<div class="row"><div class="n">${o.who}<small>${Object.entries(o.items).map(([k,n])=>`${Math.min(S.inv[k]||0,n)}/${n} ${NAME(k).toLowerCase()}`).join(' · ')}</small></div><span class="price">${COIN} ${o.reward}</span><button class="btn g" data-a="deliver" data-i="${i}" ${ok?'':'disabled'}>Entregar</button><button class="btn" data-a="skip" data-i="${i}" title="Cambiar">X</button></div>`}).join(''));save()}
+function openMenu(confirm){modal('Menú','',`
+  <div class="row"><img src="${sprout(titleI()).toDataURL()}" width="40" height="40" style="image-rendering:pixelated" alt=""><div class="n">Nivel ${S.lv} · ${title()}<small>Has vendido ${S.st.sold} productos y ganado ${fmt(S.st.earned)} monedas</small></div></div>
+  ${window.__swReg&&window.Notification?`<div class="row"><div class="n">Avisos de temporada<small>Te avisa cuando cambia la temporada</small></div><button class="btn ${Notification.permission==='granted'?'g':''}" data-a="notif">${Notification.permission==='granted'?'Activados':'Activar'}</button></div>`:''}
+  <div class="row"><div class="n">Música</div><button class="btn ${S.music?'g':''}" data-a="music">${S.music?'Sí':'No'}</button></div>
+  <div class="row"><div class="n">Sonidos</div><button class="btn ${S.sfx?'g':''}" data-a="sfx">${S.sfx?'Sí':'No'}</button></div>
+  <div class="row"><div class="n">Cómo jugar<small>Arrastra para moverte, pellizca para acercar. Elige una semilla abajo y toca o arrastra sobre la tierra para plantar. Cuando brillen, toca o arrastra para cosechar. Tus clientes compran solos en el mercado.</small></div></div>
+  ${confirm?`<div class="row" style="background:#F6D5C8"><div class="n">¿Borrar toda tu granja?<small>No se puede deshacer.</small></div><button class="btn" data-a="menu">Cancelar</button><button class="btn r" data-a="reset2">Borrar</button></div>`:`<div class="row"><div class="n">Empezar de nuevo</div><button class="btn r" data-a="reset">Borrar partida</button></div>`}`)}
+
+/* ===================== ENTRADA ===================== */
+document.addEventListener('click',e=>{const el=e.target.closest('[data-a]');if(!el)return;const a=el.dataset.a,k=el.dataset.k;ac();
+  if(a==='close'){sfx('close');closeModal()}
+  else if(a==='seed'){const C=CROPS[k];if(S.lv<C.lv){toast(C.n+' se desbloquea en nivel '+C.lv);sfx('no');return}S.sel=k;sfx('tap');renderSeeds();if(!C.s.includes(season()))toast(C.n+(S.lots.includes(11)?' solo crecerá en el invernadero ahora':' no es de esta temporada'))}
+  else if(a==='market'){sfx('open');openMarket(el.dataset.t)}
+  else if(a==='scene'){setScene(scene==='farm'?'town':'farm')}
+  else if(a==='barn'){sfx('open');openBarn()}
+  else if(a==='build'){sfx('open');openBuild(el.dataset.t)}
+  else if(a==='orders'){sfx('open');openOrders()}
+  else if(a==='menu'){sfx('open');openMenu()}
+  else if(a==='togsell'){S.sellOff[k]=!S.sellOff[k];sfx('tap');openMarket()}
+  else if(a==='upg'){const u=UPG[k],lv=S.up[k]||0,p=u.p[lv];if(S.coins<p)return;S.coins-=p;S.up[k]=lv+1;sfx('buy');addXP(5);if(k==='barn')openBarn();else if(k==='sprinkler')openBuild('farm');else openMarket();save()}
+  else if(a==='buymach'){const M=MACH[k];if(S.coins<M.price)return;S.coins-=M.price;S.mach[k]={job:null};sfx('buy');addXP(M.big?40:15);if(scene!=='farm')setScene('farm');buildWorld();closeModal();const po=padOf(k);focus(po.x,po.y+30);banner(M.big?'¡Abriste tu '+M.n.toLowerCase()+'!':'¡Taller construido!',M.big?'Toca el edificio para preparar productos':'Taller de '+M.n.toLowerCase());renderSeeds()}
+  else if(a==='buytree'){const F=FRUITS[k],i=SPOTS.findIndex((s,j)=>!S.trees[j]);if(i<0||S.coins<F.price)return;S.coins-=F.price;S.trees[i]={k,done:Date.now()+F.t*1000*speedMul()};sfx('buy');addXP(10);buildWorld();closeModal();focus(SPOTS[i][0]*T+16,SPOTS[i][1]*T);banner('¡'+F.tree+' plantado!','Dará fruta cada '+Math.round(F.t/60*10)/10+' min')}
+  else if(a==='buylot'){const L=LOTS[+k];if(S.coins<L.price||S.lv<L.lv)return;S.coins-=L.price;S.lots.push(L.i);sfx('buy');addXP(10);buildWorld();renderSeeds();closeModal();focus((L.x+3)*T,(L.y+2)*T);banner(L.gh?'¡Invernadero listo!':'¡Terreno nuevo!',L.gh?'Cultiva todo el año':'24 parcelas más')}
+  else if(a==='make'){const M=MACH[k],r=M.rec[+el.dataset.i],m=S.mach[k];if(m.job)return;if(!Object.entries(r.in).every(([k2,n])=>(S.inv[k2]||0)>=n))return;Object.entries(r.in).forEach(([k2,n])=>{S.inv[k2]-=n;if(!S.inv[k2])delete S.inv[k2]});m.job={out:r.out,xp:r.xp,start:Date.now(),done:Date.now()+r.t*1000};sfx('plant');closeModal()}
+  else if(a==='deliver'){const o=S.orders[+el.dataset.i];if(!Object.entries(o.items).every(([k2,n])=>(S.inv[k2]||0)>=n))return;Object.entries(o.items).forEach(([k2,n])=>{S.inv[k2]-=n;if(!S.inv[k2])delete S.inv[k2]});S.coins+=o.reward;S.st.earned+=o.reward;addXP(o.xp);S.orders.splice(+el.dataset.i,1);sfx('coin');sfx('buy');toast('+'+o.reward+' monedas');openOrders()}
+  else if(a==='skip'){S.orders.splice(+el.dataset.i,1);sfx('tap');openOrders()}
+  else if(a==='notif'){Notification.requestPermission().then(p=>{if(p==='granted'){window.__swReg.showNotification('MyGarden',{body:'¡Listo! Te avisaré cuando cambie la temporada.',icon:'icon-192.png'});sfx('buy')}openMenu()})}
+  else if(a==='music'){S.music=!S.music;openMenu()}else if(a==='sfx'){S.sfx=!S.sfx;openMenu()}
+  else if(a==='reset')openMenu(true);
+  else if(a==='reset2'){try{localStorage.removeItem(KEY)}catch(x){}S=fresh();customers=[];buildWorld();renderSeeds();closeModal();centerStart();S.intro=true;banner('Una semilla nueva','Empieza otra vez')}
+});
+$('modal').addEventListener('pointerdown',e=>{if(e.target.id==='modal'){sfx('close');closeModal()}});
+function focus(x,y){const pw=cv.width/SC,ph=cv.height/SC;camT={x:x-pw/2,y:y-ph/2}}
+let camT=null;
+// toque / arrastre / pellizco
+const ptrs=new Map();let mode=null,start=null,lastTile=null,pinch0=0,zoom0=0,moved=false;
+function toWorld(sx,sy){return [cam.x+sx*DPR/SC,cam.y+sy*DPR/SC]}
+cv.addEventListener('pointerdown',e=>{if(paused)return;ac();ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});try{cv.setPointerCapture(e.pointerId)}catch(x){}
+  if(ptrs.size===2){const [a,b]=[...ptrs.values()];pinch0=Math.hypot(a.x-b.x,a.y-b.y);zoom0=S.zoom||0;mode='pinch';hl=null;return}
+  start={x:e.clientX,y:e.clientY,cx:cam.x,cy:cam.y,t:performance.now()};moved=false;camT=null;
+  const [wx,wy]=toWorld(e.clientX,e.clientY),tx=Math.floor(wx/T),ty=Math.floor(wy/T);
+  const act=scene==='farm'?tileAction(tx,ty):null;
+  if(act==='plant'||act==='harvest'){mode=act;lastTile=tx+','+ty;hl=[tx,ty];if(act==='plant')plant(tx,ty);else harvest(tx,ty)}
+  else mode='pan'});
+cv.addEventListener('pointermove',e=>{if(!ptrs.has(e.pointerId))return;ptrs.set(e.pointerId,{x:e.clientX,y:e.clientY});
+  if(mode==='pinch'&&ptrs.size===2){const [a,b]=[...ptrs.values()];const d=Math.hypot(a.x-b.x,a.y-b.y);const z=Math.max(-2,Math.min(3,zoom0+Math.round(Math.log2(d/pinch0)*2)));if(z!==S.zoom)setZoom(z,(a.x+b.x)/2,(a.y+b.y)/2);return}
+  if(!start)return;const dx=e.clientX-start.x,dy=e.clientY-start.y;if(Math.hypot(dx,dy)>8)moved=true;
+  if(mode==='pan'){cam.x=start.cx-dx*DPR/SC;cam.y=start.cy-dy*DPR/SC;clampCam()}
+  else if(mode==='plant'||mode==='harvest'){const [wx,wy]=toWorld(e.clientX,e.clientY),tx=Math.floor(wx/T),ty=Math.floor(wy/T),key=tx+','+ty;if(key!==lastTile){lastTile=key;hl=[tx,ty];const a2=tileAction(tx,ty);if(mode==='plant'&&a2==='plant')plant(tx,ty);else if(mode==='harvest'&&a2==='harvest')harvest(tx,ty)}}});
+function endP(e){if(!ptrs.has(e.pointerId))return;ptrs.delete(e.pointerId);
+  if(mode==='pan'&&!moved&&start&&performance.now()-start.t<400)tap(e.clientX,e.clientY);
+  if(ptrs.size===0){if(mode==='plant'||mode==='harvest')save();mode=null;start=null;hl=null}}
+cv.addEventListener('pointerup',endP);cv.addEventListener('pointercancel',endP);
+cv.addEventListener('wheel',e=>{e.preventDefault();setZoom(Math.max(-2,Math.min(3,(S.zoom||0)+(e.deltaY<0?1:-1))),e.clientX,e.clientY)},{passive:false});
+function setZoom(z,sx,sy){const [wx,wy]=toWorld(sx,sy);S.zoom=z;resize();cam.x=wx-sx*DPR/SC;cam.y=wy-sy*DPR/SC;clampCam()}
+const inR=(x,y,rx,ry,rw,rh)=>x>=rx&&x<rx+rw&&y>=ry&&y<ry+rh;
+function tap(sx,sy){const [wx,wy]=toWorld(sx,sy),tx=Math.floor(wx/T),ty=Math.floor(wy/T);if(scene==='town'){townTap(wx,wy);return}
+  if(inR(wx,wy,36,30,80,84)){sfx('open');openMenu();return}
+  if(inR(wx,wy,130,44,62,72)){sfx('open');openBarn();return}
+  if(inR(wx,wy,572,70,90,60)){sfx('open');openMarket('sell');return}
+  for(const c of customers)if(inR(wx,wy,c.x-6,c.y-26,12,28)){sfx('tap');toast(pick(['¡Qué rico se ve todo!','¿Tienes fresas?','¡Buenos días!','Me encanta tu puesto','Vengo cada semana']));return}
+  for(const pd of PADS)if(inR(wx,wy,pd.x*T,pd.y*T-12,48,52)){sfx('open');if(S.mach[pd.k])openMach(pd.k);else{bTab='mach';openBuild('mach')}return}
+  for(const bp of BPADS)if(inR(wx,wy,bp.x*T,bp.y*T-16,80,96)){sfx('open');if(S.mach[bp.k])openMach(bp.k);else openBizBuy(BIZ.findIndex(b=>b.k===bp.k));return}
+  for(let i=0;i<SPOTS.length;i++){const s=SPOTS[i];if(inR(wx,wy,s[0]*T-4,s[1]*T-20,40,54)){treeTap(i);return}}
+  const L=plotLot(tx,ty);if(L&&!S.lots.includes(L.i)){sfx('open');openLot(L.i);return}
+  const p=S.plots[tx+','+ty];if(p){toast(CROPS[p.c].n+' · lista en '+secs(p.done));return}
+  if(L){const err=canPlant(S.sel,tx,ty);if(err){toast(err);sfx('no')}}
+}
+addEventListener('resize',()=>{resize();renderSeeds()});
+document.addEventListener('visibilitychange',()=>{if(document.hidden)save();else offline()});
+
+/* ===================== OFFLINE ===================== */
+function offline(){const el=Math.min(8*3600,(Date.now()-(S.last||Date.now()))/1000);if(el<60)return;
+  const rate=(60/4.5)*(1+.4*(S.up.sign||0))*2/60;const mul=S.up.helper?.75:.25;let n=Math.floor(el*rate*mul),earn=0,sold=0;
+  while(n>0){const ks=forSale();if(!ks.length)break;const k=pick(ks);S.inv[k]--;if(!S.inv[k])delete S.inv[k];earn+=val(k);sold++;n--}
+  const bizEarn=0;
+  S.coins+=earn+bizEarn;S.st.sold+=sold;S.st.earned+=earn+bizEarn;S.last=Date.now();
+  const ready=Object.values(S.plots).filter(p=>Date.now()>=p.done).length;
+  if(sold||ready||bizEarn){setTimeout(()=>modal('¡Bienvenido de vuelta!','',`<p class="t">Mientras no estabas${S.up.helper?', tu ayudante':''}:</p>${sold?`<div class="row"><div class="n">Vendió ${sold} productos</div><span class="price" style="font-size:20px">${COIN} ${earn}</span></div>`:''}${bizEarn?`<div class="row"><div class="n">Tus negocios ganaron</div><span class="price" style="font-size:20px">${COIN} ${fmt(bizEarn)}</span></div>`:''}${ready?`<div class="row"><div class="n">${ready} cultivos están listos para cosechar</div></div>`:''}<div style="display:flex;justify-content:flex-end;margin-top:10px"><button class="btn g" data-a="close">¡A trabajar!</button></div>`),400)}
+  hudDirty=true;save()}
+
+/* ===================== INTRO ===================== */
+const sp=$('splash'),sg=sp.getContext('2d');let spT0=0,spDone=false,spReady=false;
+function logoMark(c,cx,cy,s,gr,sc){c.save();c.translate(cx,cy);c.scale(sc,sc);c.translate(-cx,-cy);
+  const g=c.createLinearGradient(cx-s/2,cy-s/2,cx+s/2,cy+s/2);g.addColorStop(0,'#3F6E54');g.addColorStop(1,'#203A2D');
+  c.fillStyle='rgba(0,0,0,.18)';c.beginPath();c.roundRect(cx-s/2,cy-s/2+s*.05,s,s,s*.27);c.fill();c.fillStyle=g;c.beginPath();c.roundRect(cx-s/2,cy-s/2,s,s,s*.27);c.fill();
+  c.fillStyle='rgba(255,255,255,.07)';c.beginPath();c.roundRect(cx-s/2+s*.04,cy-s/2+s*.04,s*.92,s*.42,s*.23);c.fill();
+  c.fillStyle='#E7C9A0';c.beginPath();c.ellipse(cx,cy+s*.3,s*.3,s*.1,0,Math.PI,Math.PI*2);c.fill();c.fillStyle='#D3AE80';c.beginPath();c.ellipse(cx+s*.1,cy+s*.3,s*.16,s*.06,0,Math.PI,Math.PI*2);c.fill();
+  if(gr>0){c.strokeStyle='#F6F3EC';c.lineWidth=s*.055;c.lineCap='round';c.beginPath();c.moveTo(cx,cy+s*.22);c.quadraticCurveTo(cx-s*.02,cy+s*.02,cx,cy+s*(.22-.34*gr));c.stroke();
+    const ty=cy+s*(.22-.34*gr),lg=Math.max(0,(gr-.4)/.6);if(lg>0)[[-1,'#A8E07E'],[1,'#7FC86A']].forEach(([d,col])=>{c.save();c.translate(cx,ty+s*.04);c.rotate(d*.55*lg);c.scale(lg,lg);c.fillStyle=col;c.beginPath();c.moveTo(0,0);c.quadraticCurveTo(d*s*.08,-s*.17,d*s*.27,-s*.15);c.quadraticCurveTo(d*s*.2,s*.04,0,0);c.fill();c.restore()})}
+  c.restore()}
+function splash(now){if(spDone)return;if(!spT0)spT0=now;const t=(now-spT0)/1000;const W=sp.width=innerWidth*DPR,H=sp.height=innerHeight*DPR,u=Math.min(W,H)/900;
+  const bg=sg.createRadialGradient(W/2,H*.42,50*u,W/2,H/2,Math.max(W,H)*.75);bg.addColorStop(0,'#F6F3EC');bg.addColorStop(1,'#D9E6CC');sg.fillStyle=bg;sg.fillRect(0,0,W,H);
+  const ease=x=>1-Math.pow(1-Math.min(1,Math.max(0,x)),3);const s=300*u,cx=W/2,cy=H*.4;const pop=t<.6?ease(t/.6)*1.08:t<.8?1.08-(t-.6)/.2*.08:1;
+  if(t<.9){const st=Math.min(1,t/.7);sg.fillStyle='#8A6B4E';sg.beginPath();sg.ellipse(cx,Math.min(cy-s*.9+st*st*s*1.1,cy+s*.2),s*.03,s*.045,0,0,7);sg.fill()}
+  logoMark(sg,cx,cy,s,ease((t-.7)/.9),Math.max(.01,pop));
+  const txt='MyGarden';sg.font='700 '+(96*u)+'px Pix, monospace';const tw=sg.measureText(txt).width;let x=cx-tw/2;const ty=cy+s*.5+105*u;
+  [...txt].forEach((l,i)=>{const lt=t-1.3-i*.07;if(lt<0)return;const a=ease(lt/.4);sg.fillStyle=i<2?'rgba(94,138,110,'+a+')':'rgba(36,56,44,'+a+')';sg.fillText(l,x,ty+(1-a)*30*u);x+=sg.measureText(l).width});
+  if(t>2.1){const a=ease((t-2.1)/.5);sg.textAlign='center';sg.font='400 '+(26*u)+'px Pix, monospace';sg.fillStyle='rgba(124,146,132,'+a+')';sg.fillText('DE SEMILLA A IMPERIO',cx,ty+56*u);if(t>2.6){spReady=true;sg.font='400 '+(24*u)+'px Pix, monospace';sg.fillStyle='rgba(36,56,44,'+(.35+Math.sin(t*3)*.25)+')';sg.fillText(spAudio?'♪  Toca para jugar  ♪':'Toca para empezar',cx,H-60*u)}sg.textAlign='left'}
+  requestAnimationFrame(splash)}
+let spAudio=false;
+sp.addEventListener('pointerdown',()=>{if(!spAudio){spAudio=true;ac();if(!spReady)spT0-=3000;return}if(!spReady){spT0-=3000;return}sfx('level');spDone=true;sp.style.transition='opacity .6s';sp.style.opacity='0';setTimeout(()=>sp.remove(),650);start2()});
+function centerStart(){const pw=cv.width/SC,ph=cv.height/SC;cam.x=8*T-pw/2+40;cam.y=14*T-ph/2;clampCam()}
+function start2(){setMusic(season());$('hud').hidden=false;paused=false;hudDirty=true;renderSeeds();
+  if(!S.intro){S.intro=true;save();setTimeout(()=>modal('Tu primera semilla','',`<p class="t">Te dejaron un terreno con 24 parcelas, una casita y un pequeño puesto junto al camino.</p><p class="t">Elige una semilla abajo y toca la tierra para plantar. Cuando brille, cosecha. Tus clientes llegarán solos a comprar en el mercado.</p><p class="t">Gana dinero, compra terrenos, árboles y talleres… y convierte tu semilla en un imperio.</p><div style="display:flex;justify-content:flex-end"><button class="btn g" data-a="close">¡Plantar!</button></div>`),300)}
+  else offline()}
+/* ===================== BUCLE ===================== */
+let last=performance.now(),hudT=0;
+function loop(now){const dt=Math.min(.05,(now-last)/1000);last=now;update(dt);
+  if(camT){cam.x+=(camT.x-cam.x)*.12;cam.y+=(camT.y-cam.y)*.12;clampCam();if(Math.abs(camT.x-cam.x)<.5&&Math.abs(camT.y-cam.y)<.5)camT=null}
+  render();hudT+=dt;if(hudDirty||hudT>.5){hud();hudDirty=false;hudT=0}requestAnimationFrame(loop)}
+if('serviceWorker' in navigator&&location.protocol.indexOf('http')===0){navigator.serviceWorker.register('sw.js').then(r=>{window.__swReg=r}).catch(()=>{})}
+load();genMap();
+const btns={orders:'orders',build:'build',menu:'menu'};Object.entries(btns).forEach(([a,n])=>{const b=document.querySelector('[data-a='+a+']');b.appendChild(icon(n,30))});
+(document.fonts&&document.fonts.ready?document.fonts.ready:Promise.resolve()).then(()=>{resize();S.lastSeason=S.lastSeason||Math.floor(dayN()/SDAYS);buildWorld();if(S.cam){cam.x=S.cam.x;cam.y=S.cam.y;clampCam()}else centerStart();requestAnimationFrame(loop);requestAnimationFrame(splash)});
+setInterval(()=>{S.cam={x:cam.x,y:cam.y}},3000);
+window.__mg={S:()=>S,cam,tap,setTime:t=>{S.ptime=t},buildWorld,plantAt:(x,y)=>plant(x,y),harvestAt:harvest,update};
+})();
+</script>
+
+</body></html>
